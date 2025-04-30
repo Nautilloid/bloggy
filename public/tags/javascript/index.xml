@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on ideas, pronderences and deliberations</title>
+    <link>//localhost:60620/tags/javascript/</link>
+    <description>Recent content in JavaScript on ideas, pronderences and deliberations</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Feb 2025 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:60620/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>//localhost:60620/posts/javascript/</link>
+      <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/posts/javascript/</guid>
+      <description>&lt;p&gt;JavaScript is the world&amp;rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.stationx.net/javascript-for-hacking/&#34;&gt;https://www.stationx.net/javascript-for-hacking/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Low:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To make the token visible remove the &amp;ldquo;hidden&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This explains for to complete the task . Need to submit the word success and the correct token.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

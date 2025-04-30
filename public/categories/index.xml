@@ -2,10 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ideas, pronderences and deliberations</title>
-    <link>http://192.168.1.130:1313/categories/</link>
+    <link>//localhost:60620/categories/</link>
     <description>Recent content in Categories on ideas, pronderences and deliberations</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://192.168.1.130:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Mar 2025 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:60620/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking</title>
+      <link>//localhost:60620/categories/hacking/</link>
+      <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/categories/hacking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool Setup</title>
+      <link>//localhost:60620/categories/tool-setup/</link>
+      <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/categories/tool-setup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>//localhost:60620/categories/web/</link>
+      <pubDate>Tue, 24 Dec 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:60620/categories/web/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
