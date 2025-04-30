@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://192.168.1.130:1313/favicon.ico" />
+<meta property="og:url" content="http://192.168.1.130:1313/tags/firefox/">
+  <meta property="og:site_name" content="Rich told me to blog">
+  <meta property="og:title" content="Firefox">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+<title>Rich told me to blog | Firefox</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+  
+      <link rel="stylesheet" href="/css/palette/catpuccin.css">
+
+      <script src="/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+    <div class="container pt-5">
+      <div class="row mt-5 pt-5">
+        
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/posts"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/dvwa"
+        
+      >dvwa</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/Nautilloid"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >about</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+      </div>
+      <h1 class="h5 mb-3">content linked to <span class="text-lowercase underline">Firefox</span></h1>
+      
+      
+      <div class="row mb-3">
+        
+        
+        <time class="small" datetime="2025-01-30T16:06:04&#43;01:00">January 30, 2025</time>
+        <h2 class="h5"><a href="/posts/blind-sql-injection/">Bling SQL Injection</a></h2>
+        
+        <p class="small opacity-75 post-summary">
+          <p>Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.</p>
+<p>Many techniques such as UNION attacks are not effective with blind SQL injection vulnerabilities. This is because they rely on being able to see the results of the injected query within the application&rsquo;s responses. It is still possible to exploit blind SQL injection to access unauthorized data, but different techniques must be used.</p>
+        </p>
+        
+
+        
+      </div>
+      
+      <div class="row mb-3">
+        
+        
+        <time class="small" datetime="2025-01-15T16:06:04&#43;01:00">January 15, 2025</time>
+        <h2 class="h5"><a href="/posts/file-upload-vulnerabilities/">File Upload Vulnerabilities</a></h2>
+        
+        <p class="small opacity-75 post-summary">
+          <p>File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.</p>
+<p>In some cases, the act of uploading the file is in itself enough to cause damage. Other attacks may involve a follow-up HTTP request for the file, typically to trigger its execution by the server.</p>
+        </p>
+        
+
+        
+      </div>
+      
+      <div class="row mb-3">
+        
+        
+        <time class="small" datetime="2024-12-24T16:06:04&#43;01:00">December 24, 2024</time>
+        <h2 class="h5"><a href="/posts/xss-reflected/">Reflected XSS</a></h2>
+        
+        <p class="small opacity-75 post-summary">
+          <p>Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.</p>
+<p>Examples:</p>
+<pre tabindex="0"><code>javascript:/*--&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/script&gt;&lt;/xmp&gt;
+&lt;svg/onload=&#39;+/&#34;`/+/onmouseover=1/+/[*/[]/+alert(42);//&#39;&gt;
+</code></pre><pre tabindex="0"><code>&lt;IMG &#34;&#34;&#34;&gt;&lt;SCRIPT&gt;alert(&#34;XSS&#34;)&lt;/SCRIPT&gt;&#34;\&gt;
+</code></pre><pre tabindex="0"><code>&lt;a href=&#34;javascript:alert(String.fromCharCode(88,83,83))&#34;&gt;Click Me!&lt;/a&gt;
+</code></pre><pre tabindex="0"><code>&lt;IMG SRC=# onmouseover=&#34;alert(&#39;xxs&#39;)&#34;&gt;
+</code></pre><pre tabindex="0"><code>&lt;IMG SRC=/ onerror=&#34;alert(String.fromCharCode(88,83,83))&#34;&gt;&lt;/img&gt;
+</code></pre><p>DVWA has 3 settings to show different levels of security. Below are the bypasses for each level.</p>
+        </p>
+        
+
+        
+      </div>
+      
+      <div class="row mb-3">
+        
+        
+        <time class="small" datetime="2024-02-07T16:06:04&#43;01:00">February 7, 2024</time>
+        <h2 class="h5"><a href="/posts/caido-setup/">Caido Certificate Error</a></h2>
+        
+        <p class="small opacity-75 post-summary">
+          <p>Use the following guide to install the package:<br>
+<a href="https://docs.caido.io/guides/#installing-on-linux">https://docs.caido.io/guides/#installing-on-linux</a></p>
+<p>Once you&rsquo;ve installed Caido in Kali and you have used it in your on your self hosted website. But, you get a certificate error when you go to a lab on Portswigger.</p>
+<p><img src="1.png" alt="Screenshot"><br>
+<img src="2.png" alt="Screenshot"></p>
+<p>When you installed Caido you have been prompted to set up a proxy server in the network settings in firefox.</p>
+<p>As part of the install a certificate should have been added to your &rsquo;trusted certificates&rsquo;. This is fine to use for local machines eg.127.0.01.<br>
+Go into the certificate and tick the box that allows firefox to trust it.</p>
+        </p>
+        
+
+        
+      </div>
+      
+    </div>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

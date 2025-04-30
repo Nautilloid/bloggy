@@ -1,4 +1,68 @@
 baseURL = ''
 languageCode = 'en-us'
-title = 'ideas, pronderences and deliberations'
+title = 'Rich told me to blog'
 theme = 'not-much'
+copyright = "take what you need © {year}"
+
+
+# Controls the navigation
+[[menu.main]]
+  identifier =  "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "About"
+    url = "/about"
+    weight = 2
+  
+[[menu.main]]
+    identifier = "dvwa"
+    name = "dvwa"
+    title = "dvwa"
+    url = "/dvwa"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/Nautilloid"
+    weight = 5
+
+
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+theme = "dark"
+palette = "catpuccin"
+showThemeNotice = true
+showPostsSummary = true
+

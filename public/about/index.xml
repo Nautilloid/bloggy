@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>about on ideas, pronderences and deliberations</title>
-    <link>//localhost:60620/about/</link>
-    <description>Recent content in about on ideas, pronderences and deliberations</description>
+    <title>about on Rich told me to blog</title>
+    <link>http://192.168.1.130:1313/about/</link>
+    <description>Recent content in about on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <copyright>take what you need © {year}</copyright>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="//localhost:60620/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.130:1313/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

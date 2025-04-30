@@ -7,15 +7,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/png" href="http://192.168.1.130:1313/favicon.ico" />
 <meta property="og:url" content="http://192.168.1.130:1313/posts/">
-  <meta property="og:site_name" content="ideas, pronderences and deliberations">
-  <meta property="og:title" content="Posts">
+  <meta property="og:site_name" content="Rich told me to blog">
+  <meta property="og:title" content="Rich told me to blog">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
-<title>ideas, pronderences and deliberations | Posts</title>
+<title>Rich told me to blog | Rich told me to blog</title>
 
     <link rel="stylesheet" href="/css/main.css">
-      <link rel="stylesheet" href="/css/palette/default.css">
+  
+      <link rel="stylesheet" href="/css/palette/catpuccin.css">
 
       <script src="/js/main.js"></script>
 
@@ -23,6 +24,7 @@
 
 </head>
 
+  
 <body
     class="dark"
 >
@@ -33,6 +35,43 @@
     
     <div class="row mt-5 pt-5">
       
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/dvwa"
+        
+      >dvwa</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/Nautilloid"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >about</a>
+      
+    </li>
+    </ol>
+  </nav>
 
     </div>
     
@@ -44,6 +83,10 @@
       <time class="small" datetime="2025-04-23T15:22:18&#43;10:00">April 23, 2025</time>
       <h2 class="h5"><a href="/posts/test2/">Test2</a></h2>
       
+      <p class="small opacity-75 post-summary">
+        
+      </p>
+      
     </div>
     
     <div class="row mb-3">
@@ -52,9 +95,139 @@
       <time class="small" datetime="2025-04-23T15:19:29&#43;10:00">April 23, 2025</time>
       <h2 class="h5"><a href="/posts/test/">Test</a></h2>
       
+      <p class="small opacity-75 post-summary">
+        <p>this is some content</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-03-21T16:06:04&#43;01:00">March 21, 2025</time>
+      <h2 class="h5"><a href="/posts/open-redirect/">Open Redirect</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.</p>
+<p>Using the url we can redirect a user to another site.</p>
+<p><img src="1.png" alt=""></p>
+<p>When you click the quote the server redirects you to the right page. There are 2 GET requests, one for the redirect then another one to the address requested by the redirect.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-25T16:06:04&#43;01:00">February 25, 2025</time>
+      <h2 class="h5"><a href="/posts/cross-site-request-forgery-csrf/">Cross Site Request Forgery (CSRF)</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>An attacker causes a victim to carry out an action unintentionally on a web application. An example would be changing a victims user email credentials to an email address that the attacker controls by intercepting the victims session.</p>
+<p><a href="https://vulnerable-website.com/email/change?email=pwned@evil-user.net">https://vulnerable-website.com/email/change?email=pwned@evil-user.net</a>
+Sending a link like this to a victim, the victims browser would use that session cookie to make the change and update the users email.</p>
+<p>Burpsuite has a CSRF PoC generator that will create a site and you&rsquo;re able to change the parameters of the attack.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-25T16:06:04&#43;01:00">February 25, 2025</time>
+      <h2 class="h5"><a href="/posts/directory-traversal/">Path Travesral</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>A path traversal attack (also known as directory traversal) aims to access files and directories that are stored outside the web root folder. By manipulating variables that reference files with “dot-dot-slash (../)” sequences and its variations or by using absolute file paths, it may be possible to access arbitrary files and directories stored on file system including application source code or configuration and critical system files. It should be noted that access to files is limited by system operational access control (such as in the case of locked or in-use files on the Microsoft Windows operating system).</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-17T16:06:04&#43;01:00">February 17, 2025</time>
+      <h2 class="h5"><a href="/posts/javascript/">JavaScript</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>JavaScript is the world&rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.</p>
+<p><a href="https://www.stationx.net/javascript-for-hacking/">https://www.stationx.net/javascript-for-hacking/</a></p>
+<p><strong>Low:</strong></p>
+<p>To make the token visible remove the &ldquo;hidden&rdquo;</p>
+<p><img src="1.png" alt=""></p>
+<p><img src="2.png" alt=""></p>
+<p><img src="3.png" alt=""></p>
+<p>This explains for to complete the task . Need to submit the word success and the correct token.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-13T16:06:04&#43;01:00">February 13, 2025</time>
+      <h2 class="h5"><a href="/posts/content-security-policy-bypass/">Content Security Policy</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.</p>
+<p>To enable CSP, a response needs to include an HTTP response header called Content-Security-Policy with a value containing the policy. The policy itself consists of one or more directives, separated by semicolons.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-13T16:06:04&#43;01:00">February 13, 2025</time>
+      <h2 class="h5"><a href="/posts/goad/">GOAD Setup</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>GOAD is a simulated Active Directory LAB environment used to execute Windows attacks
+The purpose of this lab is to give pentesters a vulnerable Active directory environment ready to use to practice usual attack techniques. There are 5 windows servers in total, 3 domain controllers, two MySQL servers. Users and accounts have been populated and the name mimic charachters from a popular TV series.</p>
+<p><img src="1.png" alt=""></p>
+<p>Using this guide setup your GOAD LAB on your server.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-01-30T16:06:04&#43;01:00">January 30, 2025</time>
+      <h2 class="h5"><a href="/posts/blind-sql-injection/">Bling SQL Injection</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.</p>
+<p>Many techniques such as UNION attacks are not effective with blind SQL injection vulnerabilities. This is because they rely on being able to see the results of the injected query within the application&rsquo;s responses. It is still possible to exploit blind SQL injection to access unauthorized data, but different techniques must be used.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-01-15T16:06:04&#43;01:00">January 15, 2025</time>
+      <h2 class="h5"><a href="/posts/file-upload-vulnerabilities/">File Upload Vulnerabilities</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.</p>
+<p>In some cases, the act of uploading the file is in itself enough to cause damage. Other attacks may involve a follow-up HTTP request for the file, typically to trigger its execution by the server.</p>
+      </p>
+      
     </div>
     
     
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        
+        <li class="breadcrumb-item">
+          <a href="/posts/page/2/">next →</a>
+        </li>
+        
+      </ol>
+    </nav>
     
   </div>
 
