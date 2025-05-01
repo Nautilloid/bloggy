@@ -5,8 +5,8 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="http://192.168.1.130:1313/favicon.ico" />
-<meta property="og:url" content="http://192.168.1.130:1313/dvwa/">
+<link rel="shortcut icon" type="image/png" href="//localhost:1313/favicon.ico" />
+<meta property="og:url" content="//localhost:1313/dvwa/">
   <meta property="og:site_name" content="Rich told me to blog">
   <meta property="og:title" content="Rich told me to blog">
   <meta property="og:locale" content="en_us">
@@ -34,7 +34,7 @@
 	<h1></h1>
 	 
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/open-redirect/">Open Redirect</a></h2>
+			<h2><a href="//localhost:1313/dvwa/open-redirect/">Open Redirect</a></h2>
 			<p><p>Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.</p>
 <p>Using the url we can redirect a user to another site.</p>
 <p><img src="1.png" alt=""></p>
@@ -45,7 +45,7 @@
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/cross-site-request-forgery-csrf/">Cross Site Request Forgery (CSRF)</a></h2>
+			<h2><a href="//localhost:1313/dvwa/cross-site-request-forgery-csrf/">Cross Site Request Forgery (CSRF)</a></h2>
 			<p><p>An attacker causes a victim to carry out an action unintentionally on a web application. An example would be changing a victims user email credentials to an email address that the attacker controls by intercepting the victims session.</p>
 <p><a href="https://vulnerable-website.com/email/change?email=pwned@evil-user.net">https://vulnerable-website.com/email/change?email=pwned@evil-user.net</a>
 Sending a link like this to a victim, the victims browser would use that session cookie to make the change and update the users email.</p>
@@ -56,7 +56,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/directory-traversal/">Path Travesral</a></h2>
+			<h2><a href="//localhost:1313/dvwa/directory-traversal/">Path Travesral</a></h2>
 			<p><p>A path traversal attack (also known as directory traversal) aims to access files and directories that are stored outside the web root folder. By manipulating variables that reference files with “dot-dot-slash (../)” sequences and its variations or by using absolute file paths, it may be possible to access arbitrary files and directories stored on file system including application source code or configuration and critical system files. It should be noted that access to files is limited by system operational access control (such as in the case of locked or in-use files on the Microsoft Windows operating system).</p></p>
 			
 				<time datetime="2025-02-25T16:06:04&#43;01:00">Feb 25, 2025</time>
@@ -64,7 +64,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/javascript/">JavaScript</a></h2>
+			<h2><a href="//localhost:1313/dvwa/javascript/">JavaScript</a></h2>
 			<p><p>JavaScript is the world&rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.</p>
 <p><a href="https://www.stationx.net/javascript-for-hacking/">https://www.stationx.net/javascript-for-hacking/</a></p>
 <p><strong>Low:</strong></p>
@@ -79,7 +79,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/content-security-policy-bypass/">Content Security Policy</a></h2>
+			<h2><a href="//localhost:1313/dvwa/content-security-policy-bypass/">Content Security Policy</a></h2>
 			<p><p>CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.</p>
 <p>To enable CSP, a response needs to include an HTTP response header called Content-Security-Policy with a value containing the policy. The policy itself consists of one or more directives, separated by semicolons.</p></p>
 			
@@ -88,7 +88,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/blind-sql-injection/">Bling SQL Injection</a></h2>
+			<h2><a href="//localhost:1313/dvwa/blind-sql-injection/">Bling SQL Injection</a></h2>
 			<p><p>Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.</p>
 <p>Many techniques such as UNION attacks are not effective with blind SQL injection vulnerabilities. This is because they rely on being able to see the results of the injected query within the application&rsquo;s responses. It is still possible to exploit blind SQL injection to access unauthorized data, but different techniques must be used.</p></p>
 			
@@ -97,7 +97,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/file-upload-vulnerabilities/">File Upload Vulnerabilities</a></h2>
+			<h2><a href="//localhost:1313/dvwa/file-upload-vulnerabilities/">File Upload Vulnerabilities</a></h2>
 			<p><p>File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.</p>
 <p>In some cases, the act of uploading the file is in itself enough to cause damage. Other attacks may involve a follow-up HTTP request for the file, typically to trigger its execution by the server.</p></p>
 			
@@ -106,7 +106,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/xss-reflected/">Reflected XSS</a></h2>
+			<h2><a href="//localhost:1313/dvwa/xss-reflected/">Reflected XSS</a></h2>
 			<p><p>Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.</p>
 <p>Examples:</p>
 <pre tabindex="0"><code>javascript:/*--&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/script&gt;&lt;/xmp&gt;
@@ -122,7 +122,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/local-file-inclusion/">Local File Inclusion</a></h2>
+			<h2><a href="//localhost:1313/dvwa/local-file-inclusion/">Local File Inclusion</a></h2>
 			<p><p>Local File Inclusion is an attack technique in which attackers trick a web application into either running or exposing files on a web server. LFI attacks can expose sensitive information, and in severe cases, they can lead to cross-site scripting (XSS) and remote code execution. LFI is listed as one of the OWASP Top 10 web application vulnerabilities.</p>
 <p>File inclusions are a key to any server-side scripting language, and allow the content of files to be used as part of web application code. Here is an example of how LFI can enable attackers to extract sensitive information from a server. If the application uses code like this, which includes the name of a file in the URL:</p></p>
 			
@@ -131,7 +131,7 @@ Sending a link like this to a victim, the victims browser would use that session
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/xss-dom/">XSS DOM</a></h2>
+			<h2><a href="//localhost:1313/dvwa/xss-dom/">XSS DOM</a></h2>
 			<p><p>This attack takes advantage of the Document Object Model(DOM). Manipulating the URL to insert script or change parameters for the attack.</p>
 <p>By setting up a python server, http traffic, specifically cookies can be pulled using the document.cookie parameter and be sent to the server using window.location. Input validation will stop this attack.</p>
 <p><a href="https://portswigger.net/web-security/cross-site-scripting/dom-based">https://portswigger.net/web-security/cross-site-scripting/dom-based</a></p>
@@ -159,7 +159,7 @@ In this example the source is the (document.cookie) java script property</p>
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/brute-force/">Brute Force</a></h2>
+			<h2><a href="//localhost:1313/dvwa/brute-force/">Brute Force</a></h2>
 			<p><p>A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response. For the sake of efficiency, an attacker may use a dictionary attack (with or without mutations) or a traditional brute-force attack (with given classes of characters e.g.: alphanumeric, special, case (in)sensitive). Considering a given method, number of tries, efficiency of the system which conducts the attack, and estimated efficiency of the system which is attacked the attacker is able to calculate approximately how long it will take to submit all chosen predetermined values.</p></p>
 			
 				<time datetime="2024-02-07T16:06:04&#43;01:00">Feb 7, 2024</time>
@@ -167,7 +167,7 @@ In this example the source is the (document.cookie) java script property</p>
 		</article>
 	
         	<article>
-			<h2><a href="http://192.168.1.130:1313/dvwa/sql-injection/">SQL Injection</a></h2>
+			<h2><a href="//localhost:1313/dvwa/sql-injection/">SQL Injection</a></h2>
 			<p><p>SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. This can allow an attacker to view data that they are not normally able to retrieve. This might include data that belongs to other users, or any other data that the application can access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application&rsquo;s content or behavior.</p></p>
 			
 				<time datetime="2024-02-07T16:06:04&#43;01:00">Feb 7, 2024</time>

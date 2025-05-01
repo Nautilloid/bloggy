@@ -2,137 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rich told me to blog</title>
-    <link>http://192.168.1.130:1313/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
     <lastBuildDate>Fri, 21 Mar 2025 16:06:04 +0100</lastBuildDate>
-    <atom:link href="http://192.168.1.130:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Caido</title>
-      <link>http://192.168.1.130:1313/tags/caido/</link>
+      <link>//localhost:1313/tags/caido/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/caido/</guid>
+      <guid>//localhost:1313/tags/caido/</guid>
       <description></description>
     </item>
     <item>
       <title>DVWA</title>
-      <link>http://192.168.1.130:1313/tags/dvwa/</link>
+      <link>//localhost:1313/tags/dvwa/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/dvwa/</guid>
+      <guid>//localhost:1313/tags/dvwa/</guid>
       <description></description>
     </item>
     <item>
       <title>Redirects</title>
-      <link>http://192.168.1.130:1313/tags/redirects/</link>
+      <link>//localhost:1313/tags/redirects/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/redirects/</guid>
+      <guid>//localhost:1313/tags/redirects/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://192.168.1.130:1313/tags/web/</link>
+      <link>//localhost:1313/tags/web/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/web/</guid>
+      <guid>//localhost:1313/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>CSRF</title>
-      <link>http://192.168.1.130:1313/tags/csrf/</link>
+      <link>//localhost:1313/tags/csrf/</link>
       <pubDate>Tue, 25 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/csrf/</guid>
+      <guid>//localhost:1313/tags/csrf/</guid>
       <description></description>
     </item>
     <item>
       <title>Path</title>
-      <link>http://192.168.1.130:1313/tags/path/</link>
+      <link>//localhost:1313/tags/path/</link>
       <pubDate>Tue, 25 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/path/</guid>
+      <guid>//localhost:1313/tags/path/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>http://192.168.1.130:1313/tags/javascript/</link>
+      <link>//localhost:1313/tags/javascript/</link>
       <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/javascript/</guid>
+      <guid>//localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>http://192.168.1.130:1313/tags/security/</link>
+      <link>//localhost:1313/tags/security/</link>
       <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/security/</guid>
+      <guid>//localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>http://192.168.1.130:1313/tags/server/</link>
+      <link>//localhost:1313/tags/server/</link>
       <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/server/</guid>
+      <guid>//localhost:1313/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>Active Directory</title>
-      <link>http://192.168.1.130:1313/tags/active-directory/</link>
+      <link>//localhost:1313/tags/active-directory/</link>
       <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/active-directory/</guid>
+      <guid>//localhost:1313/tags/active-directory/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://192.168.1.130:1313/tags/windows/</link>
+      <link>//localhost:1313/tags/windows/</link>
       <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/windows/</guid>
+      <guid>//localhost:1313/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Firefox</title>
-      <link>http://192.168.1.130:1313/tags/firefox/</link>
+      <link>//localhost:1313/tags/firefox/</link>
       <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/firefox/</guid>
+      <guid>//localhost:1313/tags/firefox/</guid>
       <description></description>
     </item>
     <item>
       <title>Proxy</title>
-      <link>http://192.168.1.130:1313/tags/proxy/</link>
+      <link>//localhost:1313/tags/proxy/</link>
       <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/proxy/</guid>
+      <guid>//localhost:1313/tags/proxy/</guid>
       <description></description>
     </item>
     <item>
       <title>Upload</title>
-      <link>http://192.168.1.130:1313/tags/upload/</link>
+      <link>//localhost:1313/tags/upload/</link>
       <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/upload/</guid>
+      <guid>//localhost:1313/tags/upload/</guid>
       <description></description>
     </item>
     <item>
       <title>LFI</title>
-      <link>http://192.168.1.130:1313/tags/lfi/</link>
+      <link>//localhost:1313/tags/lfi/</link>
       <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/lfi/</guid>
+      <guid>//localhost:1313/tags/lfi/</guid>
       <description></description>
     </item>
     <item>
       <title>XXS</title>
-      <link>http://192.168.1.130:1313/tags/xxs/</link>
+      <link>//localhost:1313/tags/xxs/</link>
       <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/xxs/</guid>
+      <guid>//localhost:1313/tags/xxs/</guid>
       <description></description>
     </item>
     <item>
       <title>Certificate</title>
-      <link>http://192.168.1.130:1313/tags/certificate/</link>
+      <link>//localhost:1313/tags/certificate/</link>
       <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/certificate/</guid>
+      <guid>//localhost:1313/tags/certificate/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL</title>
-      <link>http://192.168.1.130:1313/tags/sql/</link>
+      <link>//localhost:1313/tags/sql/</link>
       <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/tags/sql/</guid>
+      <guid>//localhost:1313/tags/sql/</guid>
       <description></description>
     </item>
   </channel>
