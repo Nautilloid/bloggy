@@ -8,14 +8,8 @@
     <loc>http://192.168.1.130:1313/</loc>
     <lastmod>2025-04-24T17:58:51+10:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/</loc>
-    <lastmod>2025-04-23T15:22:18+10:00</lastmod>
-  </url><url>
-    <loc>http://192.168.1.130:1313/posts/test2/</loc>
-    <lastmod>2025-04-23T15:22:18+10:00</lastmod>
-  </url><url>
-    <loc>http://192.168.1.130:1313/posts/test/</loc>
-    <lastmod>2025-04-23T15:19:29+10:00</lastmod>
+    <loc>http://192.168.1.130:1313/dvwa/</loc>
+    <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/tags/caido/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
@@ -29,7 +23,7 @@
     <loc>http://192.168.1.130:1313/categories/hacking/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/open-redirect/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/open-redirect/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/tags/redirects/</loc>
@@ -41,7 +35,7 @@
     <loc>http://192.168.1.130:1313/tags/web/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/cross-site-request-forgery-csrf/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/cross-site-request-forgery-csrf/</loc>
     <lastmod>2025-02-25T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/tags/csrf/</loc>
@@ -50,10 +44,10 @@
     <loc>http://192.168.1.130:1313/tags/path/</loc>
     <lastmod>2025-02-25T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/directory-traversal/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/directory-traversal/</loc>
     <lastmod>2025-02-25T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/javascript/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/javascript/</loc>
     <lastmod>2025-02-17T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/tags/javascript/</loc>
@@ -68,10 +62,13 @@
     <loc>http://192.168.1.130:1313/tags/active-directory/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/content-security-policy-bypass/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/content-security-policy-bypass/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/goad/</loc>
+    <loc>http://192.168.1.130:1313/lab/goad/</loc>
+    <lastmod>2025-02-13T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.130:1313/lab/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/categories/tool-setup/</loc>
@@ -80,7 +77,7 @@
     <loc>http://192.168.1.130:1313/tags/windows/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/blind-sql-injection/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/blind-sql-injection/</loc>
     <lastmod>2025-01-30T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/tags/firefox/</loc>
@@ -92,10 +89,10 @@
     <loc>http://192.168.1.130:1313/tags/upload/</loc>
     <lastmod>2025-01-30T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/file-upload-vulnerabilities/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/file-upload-vulnerabilities/</loc>
     <lastmod>2025-01-15T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/xss-reflected/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/xss-reflected/</loc>
     <lastmod>2024-12-24T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/categories/web/</loc>
@@ -104,19 +101,19 @@
     <loc>http://192.168.1.130:1313/tags/lfi/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/local-file-inclusion/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/local-file-inclusion/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/xss-dom/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/xss-dom/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/tags/xxs/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/brute-force/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/brute-force/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/caido-setup/</loc>
+    <loc>http://192.168.1.130:1313/lab/caido-setup/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
     <loc>http://192.168.1.130:1313/tags/certificate/</loc>
@@ -125,7 +122,7 @@
     <loc>http://192.168.1.130:1313/tags/sql/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.130:1313/posts/sql-injection/</loc>
+    <loc>http://192.168.1.130:1313/dvwa/sql-injection/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url>
 </urlset>

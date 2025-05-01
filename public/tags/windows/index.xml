@@ -11,9 +11,9 @@
     <atom:link href="http://192.168.1.130:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GOAD Setup</title>
-      <link>http://192.168.1.130:1313/posts/goad/</link>
+      <link>http://192.168.1.130:1313/lab/goad/</link>
       <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>http://192.168.1.130:1313/posts/goad/</guid>
+      <guid>http://192.168.1.130:1313/lab/goad/</guid>
       <description>&lt;p&gt;GOAD is a simulated Active Directory LAB environment used to execute Windows attacks&#xA;The purpose of this lab is to give pentesters a vulnerable Active directory environment ready to use to practice usual attack techniques. There are 5 windows servers in total, 3 domain controllers, two MySQL servers. Users and accounts have been populated and the name mimic charachters from a popular TV series.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Using this guide setup your GOAD LAB on your server.&lt;/p&gt;</description>
     </item>
   </channel>
