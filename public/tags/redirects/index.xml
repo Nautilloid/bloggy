@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redirects on Rich told me to blog</title>
-    <link>//localhost:1313/tags/redirects/</link>
+    <link>/tags/redirects/</link>
     <description>Recent content in Redirects on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
     <lastBuildDate>Fri, 21 Mar 2025 16:06:04 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/redirects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/redirects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Open Redirect</title>
-      <link>//localhost:1313/dvwa/open-redirect/</link>
+      <link>/dvwa/open-redirect/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/open-redirect/</guid>
+      <guid>/dvwa/open-redirect/</guid>
       <description>&lt;p&gt;Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.&lt;/p&gt;&#xA;&lt;p&gt;Using the url we can redirect a user to another site.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When you click the quote the server redirects you to the right page. There are 2 GET requests, one for the redirect then another one to the address requested by the redirect.&lt;/p&gt;</description>
     </item>
   </channel>

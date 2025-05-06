@@ -2,157 +2,157 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/lab/</loc>
+    <loc>/categories/lab/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lab/</loc>
+    <loc>/tags/lab/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/nginx/</loc>
+    <loc>/tags/nginx/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/obsidian/</loc>
+    <loc>/tags/obsidian/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/proxmox/</loc>
+    <loc>/tags/proxmox/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lab/</loc>
+    <loc>/lab/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
+    <loc>/tags/security/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lab/setting-up-de-blog/</loc>
+    <loc>/lab/setting-up-de-blog/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2025-04-24T17:58:51+10:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-04-24T17:58:51+10:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/</loc>
+    <loc>/dvwa/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/caido/</loc>
+    <loc>/tags/caido/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/dvwa/</loc>
+    <loc>/tags/dvwa/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/hacking/</loc>
+    <loc>/categories/hacking/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/open-redirect/</loc>
+    <loc>/dvwa/open-redirect/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/redirects/</loc>
+    <loc>/tags/redirects/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/web/</loc>
+    <loc>/tags/web/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/cross-site-request-forgery-csrf/</loc>
+    <loc>/dvwa/cross-site-request-forgery-csrf/</loc>
     <lastmod>2025-02-25T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/csrf/</loc>
+    <loc>/tags/csrf/</loc>
     <lastmod>2025-02-25T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/path/</loc>
+    <loc>/tags/path/</loc>
     <lastmod>2025-02-25T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/directory-traversal/</loc>
+    <loc>/dvwa/directory-traversal/</loc>
     <lastmod>2025-02-25T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/javascript/</loc>
+    <loc>/dvwa/javascript/</loc>
     <lastmod>2025-02-17T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2025-02-17T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/server/</loc>
+    <loc>/tags/server/</loc>
     <lastmod>2025-02-17T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/active-directory/</loc>
+    <loc>/tags/active-directory/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/content-security-policy-bypass/</loc>
+    <loc>/dvwa/content-security-policy-bypass/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lab/goad/</loc>
+    <loc>/lab/goad/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/tool-setup/</loc>
+    <loc>/categories/tool-setup/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/windows/</loc>
+    <loc>/tags/windows/</loc>
     <lastmod>2025-02-13T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/blind-sql-injection/</loc>
+    <loc>/dvwa/blind-sql-injection/</loc>
     <lastmod>2025-01-30T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/firefox/</loc>
+    <loc>/tags/firefox/</loc>
     <lastmod>2025-01-30T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/proxy/</loc>
+    <loc>/tags/proxy/</loc>
     <lastmod>2025-01-30T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/upload/</loc>
+    <loc>/tags/upload/</loc>
     <lastmod>2025-01-30T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/file-upload-vulnerabilities/</loc>
+    <loc>/dvwa/file-upload-vulnerabilities/</loc>
     <lastmod>2025-01-15T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/curly/</loc>
+    <loc>/posts/curly/</loc>
     <lastmod>2025-01-09T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2025-01-09T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/xss-reflected/</loc>
+    <loc>/dvwa/xss-reflected/</loc>
     <lastmod>2024-12-24T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/web/</loc>
+    <loc>/categories/web/</loc>
     <lastmod>2024-12-24T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lfi/</loc>
+    <loc>/tags/lfi/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/local-file-inclusion/</loc>
+    <loc>/dvwa/local-file-inclusion/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/xss-dom/</loc>
+    <loc>/dvwa/xss-dom/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/xxs/</loc>
+    <loc>/tags/xxs/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/brute-force/</loc>
+    <loc>/dvwa/brute-force/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lab/caido-setup/</loc>
+    <loc>/lab/caido-setup/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/certificate/</loc>
+    <loc>/tags/certificate/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/sql/</loc>
+    <loc>/tags/sql/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/dvwa/sql-injection/</loc>
+    <loc>/dvwa/sql-injection/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url>
 </urlset>
