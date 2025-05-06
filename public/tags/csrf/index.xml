@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSRF on Rich told me to blog</title>
-    <link>//localhost:53868/tags/csrf/</link>
+    <link>//localhost:1313/tags/csrf/</link>
     <description>Recent content in CSRF on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
     <lastBuildDate>Tue, 25 Feb 2025 16:06:04 +0100</lastBuildDate>
-    <atom:link href="//localhost:53868/tags/csrf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/csrf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cross Site Request Forgery (CSRF)</title>
-      <link>//localhost:53868/dvwa/cross-site-request-forgery-csrf/</link>
+      <link>//localhost:1313/dvwa/cross-site-request-forgery-csrf/</link>
       <pubDate>Tue, 25 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:53868/dvwa/cross-site-request-forgery-csrf/</guid>
+      <guid>//localhost:1313/dvwa/cross-site-request-forgery-csrf/</guid>
       <description>&lt;p&gt;An attacker causes a victim to carry out an action unintentionally on a web application. An example would be changing a victims user email credentials to an email address that the attacker controls by intercepting the victims session.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vulnerable-website.com/email/change?email=pwned@evil-user.net&#34;&gt;https://vulnerable-website.com/email/change?email=pwned@evil-user.net&lt;/a&gt;&#xA;Sending a link like this to a victim, the victims browser would use that session cookie to make the change and update the users email.&lt;/p&gt;&#xA;&lt;p&gt;Burpsuite has a CSRF PoC generator that will create a site and you&amp;rsquo;re able to change the parameters of the attack.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LFI on Rich told me to blog</title>
-    <link>//localhost:53868/tags/lfi/</link>
+    <link>//localhost:1313/tags/lfi/</link>
     <description>Recent content in LFI on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
     <lastBuildDate>Mon, 23 Dec 2024 16:06:04 +0100</lastBuildDate>
-    <atom:link href="//localhost:53868/tags/lfi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/lfi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Local File Inclusion</title>
-      <link>//localhost:53868/dvwa/local-file-inclusion/</link>
+      <link>//localhost:1313/dvwa/local-file-inclusion/</link>
       <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
-      <guid>//localhost:53868/dvwa/local-file-inclusion/</guid>
+      <guid>//localhost:1313/dvwa/local-file-inclusion/</guid>
       <description>&lt;p&gt;Local File Inclusion is an attack technique in which attackers trick a web application into either running or exposing files on a web server. LFI attacks can expose sensitive information, and in severe cases, they can lead to cross-site scripting (XSS) and remote code execution. LFI is listed as one of the OWASP Top 10 web application vulnerabilities.&lt;/p&gt;&#xA;&lt;p&gt;File inclusions are a key to any server-side scripting language, and allow the content of files to be used as part of web application code. Here is an example of how LFI can enable attackers to extract sensitive information from a server. If the application uses code like this, which includes the name of a file in the URL:&lt;/p&gt;</description>
     </item>
   </channel>

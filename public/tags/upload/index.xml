@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Upload on Rich told me to blog</title>
-    <link>//localhost:53868/tags/upload/</link>
+    <link>//localhost:1313/tags/upload/</link>
     <description>Recent content in Upload on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
     <lastBuildDate>Thu, 30 Jan 2025 16:06:04 +0100</lastBuildDate>
-    <atom:link href="//localhost:53868/tags/upload/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/upload/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bling SQL Injection</title>
-      <link>//localhost:53868/dvwa/blind-sql-injection/</link>
+      <link>//localhost:1313/dvwa/blind-sql-injection/</link>
       <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:53868/dvwa/blind-sql-injection/</guid>
+      <guid>//localhost:1313/dvwa/blind-sql-injection/</guid>
       <description>&lt;p&gt;Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.&lt;/p&gt;&#xA;&lt;p&gt;Many techniques such as UNION attacks are not effective with blind SQL injection vulnerabilities. This is because they rely on being able to see the results of the injected query within the application&amp;rsquo;s responses. It is still possible to exploit blind SQL injection to access unauthorized data, but different techniques must be used.&lt;/p&gt;</description>
     </item>
   </channel>
