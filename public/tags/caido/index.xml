@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Caido on Rich told me to blog</title>
-    <link>//localhost:1313/tags/caido/</link>
+    <link>//localhost:53868/tags/caido/</link>
     <description>Recent content in Caido on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
     <lastBuildDate>Fri, 21 Mar 2025 16:06:04 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/caido/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:53868/tags/caido/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Open Redirect</title>
-      <link>//localhost:1313/dvwa/open-redirect/</link>
+      <link>//localhost:53868/dvwa/open-redirect/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/open-redirect/</guid>
+      <guid>//localhost:53868/dvwa/open-redirect/</guid>
       <description>&lt;p&gt;Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.&lt;/p&gt;&#xA;&lt;p&gt;Using the url we can redirect a user to another site.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When you click the quote the server redirects you to the right page. There are 2 GET requests, one for the redirect then another one to the address requested by the redirect.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cross Site Request Forgery (CSRF)</title>
-      <link>//localhost:1313/dvwa/cross-site-request-forgery-csrf/</link>
+      <link>//localhost:53868/dvwa/cross-site-request-forgery-csrf/</link>
       <pubDate>Tue, 25 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/cross-site-request-forgery-csrf/</guid>
+      <guid>//localhost:53868/dvwa/cross-site-request-forgery-csrf/</guid>
       <description>&lt;p&gt;An attacker causes a victim to carry out an action unintentionally on a web application. An example would be changing a victims user email credentials to an email address that the attacker controls by intercepting the victims session.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vulnerable-website.com/email/change?email=pwned@evil-user.net&#34;&gt;https://vulnerable-website.com/email/change?email=pwned@evil-user.net&lt;/a&gt;&#xA;Sending a link like this to a victim, the victims browser would use that session cookie to make the change and update the users email.&lt;/p&gt;&#xA;&lt;p&gt;Burpsuite has a CSRF PoC generator that will create a site and you&amp;rsquo;re able to change the parameters of the attack.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Path Travesral</title>
-      <link>//localhost:1313/dvwa/directory-traversal/</link>
+      <link>//localhost:53868/dvwa/directory-traversal/</link>
       <pubDate>Tue, 25 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/directory-traversal/</guid>
+      <guid>//localhost:53868/dvwa/directory-traversal/</guid>
       <description>&lt;p&gt;A path traversal attack (also known as directory traversal) aims to access files and directories that are stored outside the web root folder. By manipulating variables that reference files with “dot-dot-slash (../)” sequences and its variations or by using absolute file paths, it may be possible to access arbitrary files and directories stored on file system including application source code or configuration and critical system files. It should be noted that access to files is limited by system operational access control (such as in the case of locked or in-use files on the Microsoft Windows operating system).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Content Security Policy</title>
-      <link>//localhost:1313/dvwa/content-security-policy-bypass/</link>
+      <link>//localhost:53868/dvwa/content-security-policy-bypass/</link>
       <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/content-security-policy-bypass/</guid>
+      <guid>//localhost:53868/dvwa/content-security-policy-bypass/</guid>
       <description>&lt;p&gt;CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.&lt;/p&gt;&#xA;&lt;p&gt;To enable CSP, a response needs to include an HTTP response header called Content-Security-Policy with a value containing the policy. The policy itself consists of one or more directives, separated by semicolons.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bling SQL Injection</title>
-      <link>//localhost:1313/dvwa/blind-sql-injection/</link>
+      <link>//localhost:53868/dvwa/blind-sql-injection/</link>
       <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/blind-sql-injection/</guid>
+      <guid>//localhost:53868/dvwa/blind-sql-injection/</guid>
       <description>&lt;p&gt;Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.&lt;/p&gt;&#xA;&lt;p&gt;Many techniques such as UNION attacks are not effective with blind SQL injection vulnerabilities. This is because they rely on being able to see the results of the injected query within the application&amp;rsquo;s responses. It is still possible to exploit blind SQL injection to access unauthorized data, but different techniques must be used.&lt;/p&gt;</description>
     </item>
     <item>
       <title>File Upload Vulnerabilities</title>
-      <link>//localhost:1313/dvwa/file-upload-vulnerabilities/</link>
+      <link>//localhost:53868/dvwa/file-upload-vulnerabilities/</link>
       <pubDate>Wed, 15 Jan 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/file-upload-vulnerabilities/</guid>
+      <guid>//localhost:53868/dvwa/file-upload-vulnerabilities/</guid>
       <description>&lt;p&gt;File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.&lt;/p&gt;&#xA;&lt;p&gt;In some cases, the act of uploading the file is in itself enough to cause damage. Other attacks may involve a follow-up HTTP request for the file, typically to trigger its execution by the server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Local File Inclusion</title>
-      <link>//localhost:1313/dvwa/local-file-inclusion/</link>
+      <link>//localhost:53868/dvwa/local-file-inclusion/</link>
       <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/local-file-inclusion/</guid>
+      <guid>//localhost:53868/dvwa/local-file-inclusion/</guid>
       <description>&lt;p&gt;Local File Inclusion is an attack technique in which attackers trick a web application into either running or exposing files on a web server. LFI attacks can expose sensitive information, and in severe cases, they can lead to cross-site scripting (XSS) and remote code execution. LFI is listed as one of the OWASP Top 10 web application vulnerabilities.&lt;/p&gt;&#xA;&lt;p&gt;File inclusions are a key to any server-side scripting language, and allow the content of files to be used as part of web application code. Here is an example of how LFI can enable attackers to extract sensitive information from a server. If the application uses code like this, which includes the name of a file in the URL:&lt;/p&gt;</description>
     </item>
     <item>
       <title>XSS DOM</title>
-      <link>//localhost:1313/dvwa/xss-dom/</link>
+      <link>//localhost:53868/dvwa/xss-dom/</link>
       <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/xss-dom/</guid>
+      <guid>//localhost:53868/dvwa/xss-dom/</guid>
       <description>&lt;p&gt;This attack takes advantage of the Document Object Model(DOM). Manipulating the URL to insert script or change parameters for the attack.&lt;/p&gt;&#xA;&lt;p&gt;By setting up a python server, http traffic, specifically cookies can be pulled using the document.cookie parameter and be sent to the server using window.location. Input validation will stop this attack.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://portswigger.net/web-security/cross-site-scripting/dom-based&#34;&gt;https://portswigger.net/web-security/cross-site-scripting/dom-based&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Source:&#xA;&lt;code&gt;dvwa/vulnerabilities/xss_d/?default=English&amp;lt;script&amp;gt;alert(document.cookie)&amp;lt;/script&amp;gt;&lt;/code&gt;&#xA;In this example the source is the (document.cookie) java script property&lt;/p&gt;&#xA;&lt;p&gt;Useful functions:&lt;/p&gt;&#xA;&lt;p&gt;\\ &lt;code&gt;document.URL&lt;/code&gt;&#xA;\\ &lt;code&gt;document.documentURI&lt;/code&gt;&#xA;\\ &lt;code&gt;document.URLUnencoded&lt;/code&gt;&#xA;\\ &lt;code&gt;document.baseURI&lt;/code&gt;&#xA;\\ &lt;code&gt;location&lt;/code&gt;&#xA;\\ &lt;code&gt;document.cookie&lt;/code&gt;&#xA;\\ &lt;code&gt;document.referrer&lt;/code&gt;&#xA;\\ &lt;code&gt;window.name&lt;/code&gt;&#xA;\\ &lt;code&gt;history.pushState&lt;/code&gt;&#xA;\\ &lt;code&gt;history.replaceState&lt;/code&gt;&#xA;\\ &lt;code&gt;localStorage&lt;/code&gt;&#xA;\\ &lt;code&gt;sessionStorage&lt;/code&gt;&#xA;\\ &lt;code&gt;IndexedDB&lt;/code&gt; (mozIndexedDB, webkitIndexedDB, msIndexedDB)&#xA;\\ &lt;code&gt;Database&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Brute Force</title>
-      <link>//localhost:1313/dvwa/brute-force/</link>
+      <link>//localhost:53868/dvwa/brute-force/</link>
       <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/brute-force/</guid>
+      <guid>//localhost:53868/dvwa/brute-force/</guid>
       <description>&lt;p&gt;A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response. For the sake of efficiency, an attacker may use a dictionary attack (with or without mutations) or a traditional brute-force attack (with given classes of characters e.g.: alphanumeric, special, case (in)sensitive). Considering a given method, number of tries, efficiency of the system which conducts the attack, and estimated efficiency of the system which is attacked the attacker is able to calculate approximately how long it will take to submit all chosen predetermined values.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Caido Certificate Error</title>
-      <link>//localhost:1313/lab/caido-setup/</link>
+      <link>//localhost:53868/lab/caido-setup/</link>
       <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/lab/caido-setup/</guid>
+      <guid>//localhost:53868/lab/caido-setup/</guid>
       <description>&lt;p&gt;Use the following guide to install the package:&lt;br&gt;&#xA;&lt;a href=&#34;https://docs.caido.io/guides/#installing-on-linux&#34;&gt;https://docs.caido.io/guides/#installing-on-linux&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once you&amp;rsquo;ve installed Caido in Kali and you have used it in your on your self hosted website. But, you get a certificate error when you go to a lab on Portswigger.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;br&gt;&#xA;&lt;img src=&#34;2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When you installed Caido you have been prompted to set up a proxy server in the network settings in firefox.&lt;/p&gt;&#xA;&lt;p&gt;As part of the install a certificate should have been added to your &amp;rsquo;trusted certificates&amp;rsquo;. This is fine to use for local machines eg.127.0.01.&lt;br&gt;&#xA;Go into the certificate and tick the box that allows firefox to trust it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SQL Injection</title>
-      <link>//localhost:1313/dvwa/sql-injection/</link>
+      <link>//localhost:53868/dvwa/sql-injection/</link>
       <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/dvwa/sql-injection/</guid>
+      <guid>//localhost:53868/dvwa/sql-injection/</guid>
       <description>&lt;p&gt;SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. This can allow an attacker to view data that they are not normally able to retrieve. This might include data that belongs to other users, or any other data that the application can access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application&amp;rsquo;s content or behavior.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.146.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.146.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=53868&amp;path=livereload" data-no-instant defer></script>
   
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="//localhost:1313/favicon.ico" />
-<meta property="og:url" content="//localhost:1313/">
+<link rel="shortcut icon" type="image/png" href="//localhost:53868/favicon.ico" />
+<meta property="og:url" content="//localhost:53868/">
   <meta property="og:site_name" content="Rich told me to blog">
   <meta property="og:title" content="Rich told me to blog">
   <meta property="og:description" content="We all have our blindspots, what’s yours?">
@@ -35,6 +35,11 @@
     
   <p>We all have our blindspots, what&rsquo;s yours?</p>
 
+  
+    <h2><a href="/lab/setting-up-de-blog/">Setting up bloggy</a></h2>
+    <p><strong>Technologies</strong></p>
+<p>Ubuntu Server &gt; Nginx &gt; Git &gt; Hugo &gt; Obsidian &gt; Unifi &gt; No-IP &gt; GoDaddy</p>
+<p>Note: Before starting this please consider that if you&rsquo;d like to have screenshots in your blog you need to have a path from your .md file to the location of the .png. To simplify this when I create a markdown file for a blog post, I first create a folder that will hold all of the content. I wish I&rsquo;d know to do this from the start.</p>
   
     <h2><a href="/dvwa/open-redirect/">Open Redirect</a></h2>
     <p>Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.</p>
@@ -78,6 +83,18 @@ The purpose of this lab is to give pentesters a vulnerable Active directory envi
     <h2><a href="/dvwa/file-upload-vulnerabilities/">File Upload Vulnerabilities</a></h2>
     <p>File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.</p>
 <p>In some cases, the act of uploading the file is in itself enough to cause damage. Other attacks may involve a follow-up HTTP request for the file, typically to trigger its execution by the server.</p>
+  
+    <h2><a href="/posts/curly/">Curlacking</a></h2>
+    <p>Launched 1998, curl is a tool for transferring data from or to a server using URLs, with over 230 command line options. This briefly shows some of the ways to use it for reconnosince and</p>
+<p>curl -I http://192.168.10.123/dvwa/
+-I just returns the head</p>
+<p>![[Screenshot 2025-01-09 at 3.56.45 pm.png]]</p>
+<p>curl <a href="https://example.com/%5B1-9%5D.html">https://example.com/[1-9].html</a></p>
+<p>curl <a href="https://example.com/%5B1-20:3%5D.html">https://example.com/[1-20:3].html</a> - o save_#1.html (will save )</p>
+<p>curl &ndash;verbose <a href="https://example.com/%5Ba-z%5D.html">https://example.com/[a-z].html</a> #(very important for troubleshooting)</p>
+<p>curl  -L http://192.168.10.123/dvwa/vulnerabilities/fi/?page=include.php
+-L will show the redirect</p>
+<p>Without:![[Screenshot 2025-01-09 at 5.24.52 pm.png]]</p>
   
     <h2><a href="/dvwa/xss-reflected/">Reflected XSS</a></h2>
     <p>Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.</p>

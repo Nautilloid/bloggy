@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proxmox on Rich told me to blog</title>
+    <link>//localhost:53868/tags/proxmox/</link>
+    <description>Recent content in Proxmox on Rich told me to blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>take what you need © {year}</copyright>
+    <lastBuildDate>Fri, 02 May 2025 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:53868/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up bloggy</title>
+      <link>//localhost:53868/lab/setting-up-de-blog/</link>
+      <pubDate>Fri, 02 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:53868/lab/setting-up-de-blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ubuntu Server &amp;gt; Nginx &amp;gt; Git &amp;gt; Hugo &amp;gt; Obsidian &amp;gt; Unifi &amp;gt; No-IP &amp;gt; GoDaddy&lt;/p&gt;&#xA;&lt;p&gt;Note: Before starting this please consider that if you&amp;rsquo;d like to have screenshots in your blog you need to have a path from your .md file to the location of the .png. To simplify this when I create a markdown file for a blog post, I first create a folder that will hold all of the content. I wish I&amp;rsquo;d know to do this from the start.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
