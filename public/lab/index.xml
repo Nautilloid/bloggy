@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proxmox LAB on Rich told me to blog</title>
+    <link>//localhost:1313/lab/</link>
+    <description>Recent content in Proxmox LAB on Rich told me to blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>take what you need © {year}</copyright>
+    <lastBuildDate>Fri, 02 May 2025 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up bloggy</title>
+      <link>//localhost:1313/lab/setting-up-de-blog/</link>
+      <pubDate>Fri, 02 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/lab/setting-up-de-blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ubuntu Server &amp;gt; Nginx &amp;gt; Git &amp;gt; Hugo &amp;gt; Obsidian &amp;gt; Unifi &amp;gt; No-IP &amp;gt; GoDaddy&lt;/p&gt;&#xA;&lt;p&gt;Note: Before starting this please consider that if you&amp;rsquo;d like to have screenshots in your blog you need to have a path from your .md file to the location of the .png. To simplify this when I create a markdown file for a blog post, I first create a folder that will hold all of the content. I wish I&amp;rsquo;d know to do this from the start.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GOAD Setup</title>
+      <link>//localhost:1313/lab/goad/</link>
+      <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/lab/goad/</guid>
+      <description>&lt;p&gt;GOAD is a simulated Active Directory LAB environment used to execute Windows attacks&#xA;The purpose of this lab is to give pentesters a vulnerable Active directory environment ready to use to practice usual attack techniques. There are 5 windows servers in total, 3 domain controllers, two MySQL servers. Users and accounts have been populated and the name mimic charachters from a popular TV series.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Using this guide setup your GOAD LAB on your server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Caido Certificate Error</title>
+      <link>//localhost:1313/lab/caido-setup/</link>
+      <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/lab/caido-setup/</guid>
+      <description>&lt;p&gt;Use the following guide to install the package:&lt;br&gt;&#xA;&lt;a href=&#34;https://docs.caido.io/guides/#installing-on-linux&#34;&gt;https://docs.caido.io/guides/#installing-on-linux&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once you&amp;rsquo;ve installed Caido in Kali and you have used it in your on your self hosted website. But, you get a certificate error when you go to a lab on Portswigger.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;br&gt;&#xA;&lt;img src=&#34;2.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When you installed Caido you have been prompted to set up a proxy server in the network settings in firefox.&lt;/p&gt;&#xA;&lt;p&gt;As part of the install a certificate should have been added to your &amp;rsquo;trusted certificates&amp;rsquo;. This is fine to use for local machines eg.127.0.01.&lt;br&gt;&#xA;Go into the certificate and tick the box that allows firefox to trust it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

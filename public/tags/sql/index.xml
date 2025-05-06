@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Rich told me to blog</title>
+    <link>//localhost:1313/tags/sql/</link>
+    <description>Recent content in SQL on Rich told me to blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>take what you need © {year}</copyright>
+    <lastBuildDate>Wed, 07 Feb 2024 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Injection</title>
+      <link>//localhost:1313/dvwa/sql-injection/</link>
+      <pubDate>Wed, 07 Feb 2024 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/dvwa/sql-injection/</guid>
+      <description>&lt;p&gt;SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. This can allow an attacker to view data that they are not normally able to retrieve. This might include data that belongs to other users, or any other data that the application can access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application&amp;rsquo;s content or behavior.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

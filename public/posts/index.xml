@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Rich told me to blog</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Rich told me to blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>take what you need © {year}</copyright>
+    <lastBuildDate>Thu, 09 Jan 2025 16:06:04 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curlacking</title>
+      <link>//localhost:1313/posts/curly/</link>
+      <pubDate>Thu, 09 Jan 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/posts/curly/</guid>
+      <description>&lt;p&gt;Launched 1998, curl is a tool for transferring data from or to a server using URLs, with over 230 command line options. This briefly shows some of the ways to use it for reconnosince and&lt;/p&gt;&#xA;&lt;p&gt;curl -I http://192.168.10.123/dvwa/&#xA;-I just returns the head&lt;/p&gt;&#xA;&lt;p&gt;![[Screenshot 2025-01-09 at 3.56.45 pm.png]]&lt;/p&gt;&#xA;&lt;p&gt;curl &lt;a href=&#34;https://example.com/%5B1-9%5D.html&#34;&gt;https://example.com/[1-9].html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;curl &lt;a href=&#34;https://example.com/%5B1-20:3%5D.html&#34;&gt;https://example.com/[1-20:3].html&lt;/a&gt; - o save_#1.html (will save )&lt;/p&gt;&#xA;&lt;p&gt;curl &amp;ndash;verbose &lt;a href=&#34;https://example.com/%5Ba-z%5D.html&#34;&gt;https://example.com/[a-z].html&lt;/a&gt; #(very important for troubleshooting)&lt;/p&gt;&#xA;&lt;p&gt;curl  -L http://192.168.10.123/dvwa/vulnerabilities/fi/?page=include.php&#xA;-L will show the redirect&lt;/p&gt;&#xA;&lt;p&gt;Without:![[Screenshot 2025-01-09 at 5.24.52 pm.png]]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
