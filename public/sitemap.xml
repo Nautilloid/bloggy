@@ -3,15 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-05-02T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cidr/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/hacking/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/ipv4/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/lab/ipv4-representation/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/lab/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/lab/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/security/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/web/</loc>
+    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/git/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/hugo/</loc>
-    <lastmod>2025-05-02T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/lab/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/lab/</loc>
@@ -26,16 +50,7 @@
     <loc>//localhost:1313/tags/proxmox/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lab/</loc>
-    <lastmod>2025-05-02T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
-    <lastmod>2025-05-02T16:06:04+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/lab/setting-up-de-blog/</loc>
-    <lastmod>2025-05-02T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-05-02T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/about/</loc>
@@ -60,9 +75,6 @@
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/redirects/</loc>
-    <lastmod>2025-03-21T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/web/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/dvwa/cross-site-request-forgery-csrf/</loc>
