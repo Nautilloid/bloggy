@@ -7,8 +7,43 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
-    <lastBuildDate>Fri, 02 May 2025 16:06:04 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 16:06:04 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CIDR</title>
+      <link>//localhost:1313/tags/cidr/</link>
+      <pubDate>Fri, 09 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/tags/cidr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hacking</title>
+      <link>//localhost:1313/tags/hacking/</link>
+      <pubDate>Fri, 09 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/tags/hacking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPv4</title>
+      <link>//localhost:1313/tags/ipv4/</link>
+      <pubDate>Fri, 09 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/tags/ipv4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>//localhost:1313/tags/security/</link>
+      <pubDate>Fri, 09 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>//localhost:1313/tags/web/</link>
+      <pubDate>Fri, 09 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/tags/web/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>//localhost:1313/tags/git/</link>
@@ -52,13 +87,6 @@
       <description></description>
     </item>
     <item>
-      <title>Security</title>
-      <link>//localhost:1313/tags/security/</link>
-      <pubDate>Fri, 02 May 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Caido</title>
       <link>//localhost:1313/tags/caido/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
@@ -77,13 +105,6 @@
       <link>//localhost:1313/tags/redirects/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
       <guid>//localhost:1313/tags/redirects/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web</title>
-      <link>//localhost:1313/tags/web/</link>
-      <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/tags/web/</guid>
       <description></description>
     </item>
     <item>
@@ -161,6 +182,41 @@
       <link>//localhost:1313/tags/xxs/</link>
       <pubDate>Mon, 23 Dec 2024 16:06:04 +0100</pubDate>
       <guid>//localhost:1313/tags/xxs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greenbone</title>
+      <link>//localhost:1313/tags/greenbone/</link>
+      <pubDate>Tue, 17 Dec 2024 17:58:51 +1000</pubDate>
+      <guid>//localhost:1313/tags/greenbone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kali</title>
+      <link>//localhost:1313/tags/kali/</link>
+      <pubDate>Tue, 17 Dec 2024 17:58:51 +1000</pubDate>
+      <guid>//localhost:1313/tags/kali/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenVAS</title>
+      <link>//localhost:1313/tags/openvas/</link>
+      <pubDate>Tue, 17 Dec 2024 17:58:51 +1000</pubDate>
+      <guid>//localhost:1313/tags/openvas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>//localhost:1313/tags/tools/</link>
+      <pubDate>Tue, 17 Dec 2024 17:58:51 +1000</pubDate>
+      <guid>//localhost:1313/tags/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulnerablilty Scanner</title>
+      <link>//localhost:1313/tags/vulnerablilty-scanner/</link>
+      <pubDate>Tue, 17 Dec 2024 17:58:51 +1000</pubDate>
+      <guid>//localhost:1313/tags/vulnerablilty-scanner/</guid>
       <description></description>
     </item>
     <item>

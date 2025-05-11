@@ -78,6 +78,28 @@ The purpose of this lab is to give pentesters a vulnerable Active directory envi
 		</article>
 	
 		<article>
+			<h2><a href="//localhost:1313/lab/openvas-installation/">OpenVAS installation &amp;&amp; troubleshooting</a></h2>
+			<p><p>Installing OpenVAS on Kali for free vulnerability scanner</p>
+<p>Follow the instructions in this link:</p>
+<p><a href="https://greenbone.github.io/docs/latest/22.4/kali/index.html">https://greenbone.github.io/docs/latest/22.4/kali/index.html</a></p>
+<p><strong>Troubleshooting:</strong></p>
+<p><img src="5.png" alt=""></p>
+<p>Before running the gvm-setup command from the tutorial above you need to upgrade PostgreSQL to version 17</p>
+<p><a href="https://secburg.com/posts/howto-upgrade-postgresql-16-to-17/">https://secburg.com/posts/howto-upgrade-postgresql-16-to-17/</a></p>
+<p><img src="1.png" alt=""></p>
+<p><img src="2.png" alt=""></p>
+<p><img src="3.png" alt="">
+Add: <code>ExecStart=/usr/sbin/gsad --listen=x.x.x.x --port 9392</code></p>
+<p>To: <code>/usr/lib/systemd/system/gsad.service</code></p>
+<p><img src="4.png" alt=""></p>
+<pre tabindex="0"><code>sudo systemctl daemon-reload &amp;&amp; sudo gvm-start
+</code></pre></p>
+			
+				<time datetime="2024-12-17T17:58:51&#43;10:00">Dec 17, 2024</time>
+			
+		</article>
+	
+		<article>
 			<h2><a href="//localhost:1313/lab/caido-setup/">Caido Certificate Error</a></h2>
 			<p><p>Use the following guide to install the package:<br>
 <a href="https://docs.caido.io/guides/#installing-on-linux">https://docs.caido.io/guides/#installing-on-linux</a></p>

@@ -152,6 +152,24 @@
     <loc>//localhost:1313/tags/xxs/</loc>
     <lastmod>2024-12-23T16:06:04+01:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/greenbone/</loc>
+    <lastmod>2024-12-17T17:58:51+10:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/kali/</loc>
+    <lastmod>2024-12-17T17:58:51+10:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/openvas/</loc>
+    <lastmod>2024-12-17T17:58:51+10:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/lab/openvas-installation/</loc>
+    <lastmod>2024-12-17T17:58:51+10:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tools/</loc>
+    <lastmod>2024-12-17T17:58:51+10:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/vulnerablilty-scanner/</loc>
+    <lastmod>2024-12-17T17:58:51+10:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/dvwa/brute-force/</loc>
     <lastmod>2024-02-07T16:06:04+01:00</lastmod>
   </url><url>
