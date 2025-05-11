@@ -36,6 +36,27 @@
 	<p><img src="network-map.png" alt=""></p>
  
 		<article>
+			<h2><a href="/lab/ipv4-representation/">IPv4 Representation</a></h2>
+			<p><p>First, some background</p>
+<p><img src="1.png" alt=""></p>
+<p><a href="https://www.rfc-editor.org/rfc/rfc791">https://www.rfc-editor.org/rfc/rfc791</a></p>
+<p>Steve Gibson GRC explains the Internet
+<a href="https://www.youtube.com/watch?v=7ALMh6I1fAo">https://www.youtube.com/watch?v=7ALMh6I1fAo</a></p>
+<p>The model of operation is that an internet module resides in each host
+engaged in internet communication and in each gateway that
+interconnects networks.  These modules share common rules for
+interpreting address fields and for fragmenting and assembling
+internet datagrams.  In addition, these modules (especially in
+gateways) have procedures for making routing decisions and other
+functions. -rfc791-</p>
+<p>The datagram arrives at a gateway host wrapped in the local network
+header, the local network interface strips off this header, and turns the datagram over to the internet module.  The internet module determines from the internet address that the datagram is to be forwarded to another host in a second network.  The internet module determines a local net address for the destination host.  It calls on the local network interface for that network to send the datagram. -rfc791-</p></p>
+			
+				<time datetime="2025-05-09T16:06:04&#43;01:00">May 9, 2025</time>
+			
+		</article>
+	
+		<article>
 			<h2><a href="/lab/setting-up-de-blog/">Setting up bloggy</a></h2>
 			<p><p><strong>Technologies</strong></p>
 <p>Ubuntu Server &gt; Nginx &gt; Git &gt; Hugo &gt; Obsidian &gt; Unifi &gt; No-IP &gt; GoDaddy</p>

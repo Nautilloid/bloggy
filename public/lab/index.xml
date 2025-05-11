@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
-    <lastBuildDate>Fri, 02 May 2025 16:06:04 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 16:06:04 +0100</lastBuildDate>
     <atom:link href="/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPv4 Representation</title>
+      <link>/lab/ipv4-representation/</link>
+      <pubDate>Fri, 09 May 2025 16:06:04 +0100</pubDate>
+      <guid>/lab/ipv4-representation/</guid>
+      <description>&lt;p&gt;First, some background&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.rfc-editor.org/rfc/rfc791&#34;&gt;https://www.rfc-editor.org/rfc/rfc791&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Steve Gibson GRC explains the Internet&#xA;&lt;a href=&#34;https://www.youtube.com/watch?v=7ALMh6I1fAo&#34;&gt;https://www.youtube.com/watch?v=7ALMh6I1fAo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The model of operation is that an internet module resides in each host&#xA;engaged in internet communication and in each gateway that&#xA;interconnects networks.  These modules share common rules for&#xA;interpreting address fields and for fragmenting and assembling&#xA;internet datagrams.  In addition, these modules (especially in&#xA;gateways) have procedures for making routing decisions and other&#xA;functions. -rfc791-&lt;/p&gt;&#xA;&lt;p&gt;The datagram arrives at a gateway host wrapped in the local network&#xA;header, the local network interface strips off this header, and turns the datagram over to the internet module.  The internet module determines from the internet address that the datagram is to be forwarded to another host in a second network.  The internet module determines a local net address for the destination host.  It calls on the local network interface for that network to send the datagram. -rfc791-&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting up bloggy</title>
       <link>/lab/setting-up-de-blog/</link>
