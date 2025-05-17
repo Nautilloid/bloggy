@@ -1,6 +1,6 @@
 ---
 title: "XML external entity injection XXE"
-date: 2025-05-16T16:06:04+01:00
+date: 2025-05-17T16:06:04+01:00
 draft: false
 tags: ["Security", "XXE", "web", "Portswigger"]
 categories: ["web"]
@@ -11,7 +11,7 @@ XML external entity injection (also known as XXE) is a web security vulnerabilit
 
 Background 
 
-XML, Extensible Markup Langauge is  is a language designed for storing and transporting data. Like HTML, XML uses a tree-like structure of tags and data. Unlike HTML, XML does not use predefined tags, and so tags can be given names that describe the data. Earlier in the web's history, XML was in vogue as a data transport format (the "X" in "AJAX" stands for "XML"). But its popularity has now declined in favor of the JSON format.
+XML, Extensible Markup Langauge is a language designed for storing and transporting data. Like HTML, XML uses a tree-like structure of tags and data. Unlike HTML, XML does not use predefined tags, and so tags can be given names that describe the data. Earlier in the web's history, XML was in vogue as a data transport format (the "X" in "AJAX" stands for "XML"). But its popularity has now declined in favor of the JSON format.
 -Portswigger- https://portswigger.net/web-security/xxe/xml-entities
 
 
@@ -24,11 +24,11 @@ Data flow from Server to client and client to server via JSON and XML
 
 Sign in and start the lab
 
-![[PEN-200/XXE Portswigger/1.png]]
+![](1.png)
 
 Start Caido and look for the post request once you use the "checkstock" button on the website.
 
-![[2a.png]]
+![](2a.png)
 
 Create a system call:
 ```
@@ -38,8 +38,8 @@ Create a system call:
 then replace the productID with your call:
 ```&gap```
 
-![[PEN-200/XXE Portswigger/2.png]]
+![](2.png)
 
-![[PEN-200/XXE Portswigger/3.png]]
+![](3.png)
 
 Yay!
