@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/dvwa/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/portswigger/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/security/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/web/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/web/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/dvwa/xxe-portswigger/xml-external-entity-xxe-injection/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/xxe/</loc>
+    <lastmod>2025-05-16T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/cidr/</loc>
     <lastmod>2025-05-09T16:06:04+01:00</lastmod>
@@ -21,15 +45,6 @@
     <lastmod>2025-05-09T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/lab/</loc>
-    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
-    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-05-09T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/web/</loc>
     <lastmod>2025-05-09T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/git/</loc>
@@ -58,9 +73,6 @@
   </url><url>
     <loc>//localhost:1313/</loc>
     <lastmod>2025-04-24T17:58:51+10:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/dvwa/</loc>
-    <lastmod>2025-03-21T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/caido/</loc>
     <lastmod>2025-03-21T16:06:04+01:00</lastmod>
@@ -135,9 +147,6 @@
     <lastmod>2025-01-09T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/dvwa/xss-reflected/</loc>
-    <lastmod>2024-12-24T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/web/</loc>
     <lastmod>2024-12-24T16:06:04+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/lfi/</loc>

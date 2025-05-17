@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
-    <lastBuildDate>Fri, 21 Mar 2025 16:06:04 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 16:06:04 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/dvwa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XML external entity injection XXE</title>
+      <link>//localhost:1313/dvwa/xxe-portswigger/xml-external-entity-xxe-injection/</link>
+      <pubDate>Fri, 16 May 2025 16:06:04 +0100</pubDate>
+      <guid>//localhost:1313/dvwa/xxe-portswigger/xml-external-entity-xxe-injection/</guid>
+      <description>&lt;p&gt;XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application&amp;rsquo;s processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any back-end or external systems that the application itself can access.&#xA;-Portswigger- &lt;a href=&#34;https://portswigger.net/web-security/xxe&#34;&gt;https://portswigger.net/web-security/xxe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Background&lt;/p&gt;&#xA;&lt;p&gt;XML, Extensible Markup Langauge is  is a language designed for storing and transporting data. Like HTML, XML uses a tree-like structure of tags and data. Unlike HTML, XML does not use predefined tags, and so tags can be given names that describe the data. Earlier in the web&amp;rsquo;s history, XML was in vogue as a data transport format (the &amp;ldquo;X&amp;rdquo; in &amp;ldquo;AJAX&amp;rdquo; stands for &amp;ldquo;XML&amp;rdquo;). But its popularity has now declined in favor of the JSON format.&#xA;-Portswigger- &lt;a href=&#34;https://portswigger.net/web-security/xxe/xml-entities&#34;&gt;https://portswigger.net/web-security/xxe/xml-entities&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Open Redirect</title>
       <link>//localhost:1313/dvwa/open-redirect/</link>
