@@ -19,6 +19,8 @@ I'm especially interested in roles related to:
 
 I'm currently looking for entry-level opportunities or internships where I can grow with a team, contribute to real-world projects, and keep sharpening my technical skills.
 
-If you’re hiring or just want to connect, feel free to via the email provided [here](blog-cv.pdf).
+If you’re hiring or just want to connect, feel free to contact me via ``` nautilloid@proton.me```
+
+[Link to my CV](blog-cv.pdf)
 
 Kia kaha — thanks for stopping by.
