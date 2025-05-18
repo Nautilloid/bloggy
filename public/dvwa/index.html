@@ -9,6 +9,8 @@
 <meta property="og:url" content="/dvwa/">
   <meta property="og:site_name" content="Rich told me to blog">
   <meta property="og:title" content="Rich told me to blog">
+  <meta property="og:description" content="I’ve created Damn Vulnerable Web Application walkthroughs.
+link to DVWA: https://github.com/digininja/DVWA">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
@@ -31,6 +33,7 @@
   
   <main>
     
+<<<<<<< HEAD
 	<h1></h1>
 	 
         	<article>
@@ -78,12 +81,119 @@ Sending a link like this to a victim, the victims browser would use that session
         	<article>
 			<h2><a href="/dvwa/javascript/">JavaScript</a></h2>
 			<p><p>JavaScript is the world&rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.</p>
+=======
+  <div class="container pt-5">
+    
+    <div class="row mt-5 pt-5">
+      
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/lab"
+        
+      >lab</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/dvwa"
+        class="text-decoration-underline link-offset-3"
+        
+      >dvwa</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/portswigger"
+        
+      >portswigger</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/about"
+        
+      >about</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/Nautilloid"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+    </div>
+    <p>I&rsquo;ve created Damn Vulnerable Web Application walkthroughs.</p>
+<p>link to DVWA: <a href="https://github.com/digininja/DVWA">https://github.com/digininja/DVWA</a></p>
+
+    
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-03-21T16:06:04&#43;01:00">March 21, 2025</time>
+      <h2 class="h5"><a href="/dvwa/open-redirect/">Open Redirect</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.</p>
+<p>Using the url we can redirect a user to another site.</p>
+<p><img src="1.png" alt=""></p>
+<p>When you click the quote the server redirects you to the right page. There are 2 GET requests, one for the redirect then another one to the address requested by the redirect.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-25T16:06:04&#43;01:00">February 25, 2025</time>
+      <h2 class="h5"><a href="/dvwa/cross-site-request-forgery-csrf/">Cross Site Request Forgery (CSRF)</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>An attacker causes a victim to carry out an action unintentionally on a web application. An example would be changing a victims user email credentials to an email address that the attacker controls by intercepting the victims session.</p>
+<p><a href="https://vulnerable-website.com/email/change?email=pwned@evil-user.net">https://vulnerable-website.com/email/change?email=pwned@evil-user.net</a>
+Sending a link like this to a victim, the victims browser would use that session cookie to make the change and update the users email.</p>
+<p>Burpsuite has a CSRF PoC generator that will create a site and you&rsquo;re able to change the parameters of the attack.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-25T16:06:04&#43;01:00">February 25, 2025</time>
+      <h2 class="h5"><a href="/dvwa/directory-traversal/">Path Travesral</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>A path traversal attack (also known as directory traversal) aims to access files and directories that are stored outside the web root folder. By manipulating variables that reference files with “dot-dot-slash (../)” sequences and its variations or by using absolute file paths, it may be possible to access arbitrary files and directories stored on file system including application source code or configuration and critical system files. It should be noted that access to files is limited by system operational access control (such as in the case of locked or in-use files on the Microsoft Windows operating system).</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-17T16:06:04&#43;01:00">February 17, 2025</time>
+      <h2 class="h5"><a href="/dvwa/javascript/">JavaScript</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>JavaScript is the world&rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.</p>
+>>>>>>> f9cb3a8f3dc50b7af78dc53b8ce81c651b5c8d23
 <p><a href="https://www.stationx.net/javascript-for-hacking/">https://www.stationx.net/javascript-for-hacking/</a></p>
 <p><strong>Low:</strong></p>
-<p>To make the token visible remove the &ldquo;hidden&rdquo;</p>
+<p>To make the token visible remove the &ldquo;hidden&rdquo; value.</p>
 <p><img src="1.png" alt=""></p>
 <p><img src="2.png" alt=""></p>
 <p><img src="3.png" alt=""></p>
+<<<<<<< HEAD
 <p>This explains for to complete the task . Need to submit the word success and the correct token.</p></p>
 			
 				<time datetime="2025-02-17T16:06:04&#43;01:00">Feb 17, 2025</time>
@@ -120,6 +230,60 @@ Sending a link like this to a victim, the victims browser would use that session
         	<article>
 			<h2><a href="/dvwa/xss-reflected/">Reflected XSS</a></h2>
 			<p><p>Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.</p>
+=======
+<p>This explains for to complete the task. Submit the word success and the correct token.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-02-13T16:06:04&#43;01:00">February 13, 2025</time>
+      <h2 class="h5"><a href="/dvwa/content-security-policy-bypass/">Content Security Policy</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.</p>
+<p>To enable CSP, a response needs to include an HTTP response header called Content-Security-Policy with a value containing the policy. The policy itself consists of one or more directives, separated by semicolons.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-01-30T16:06:04&#43;01:00">January 30, 2025</time>
+      <h2 class="h5"><a href="/dvwa/blind-sql-injection/">Blind SQL Injection</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.</p>
+<p>Many techniques such as UNION attacks are not effective with blind SQL injection vulnerabilities. This is because they rely on being able to see the results of the injected query within the application&rsquo;s responses. It is still possible to exploit blind SQL injection to access unauthorized data, but different techniques must be used.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2025-01-15T16:06:04&#43;01:00">January 15, 2025</time>
+      <h2 class="h5"><a href="/dvwa/file-upload-vulnerabilities/">File Upload Vulnerabilities</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.</p>
+<p>In some cases, the act of uploading the file is in itself enough to cause damage. Other attacks may involve a follow-up HTTP request for the file, typically to trigger its execution by the server.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2024-12-24T16:06:04&#43;01:00">December 24, 2024</time>
+      <h2 class="h5"><a href="/dvwa/xss-reflected/">Reflected XSS</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim&rsquo;s browser, which then executes them. It relies on the server reflecting user input directly into the response page.</p>
+>>>>>>> f9cb3a8f3dc50b7af78dc53b8ce81c651b5c8d23
 <p>Examples:</p>
 <pre tabindex="0"><code>javascript:/*--&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/script&gt;&lt;/xmp&gt;
 &lt;svg/onload=&#39;+/&#34;`/+/onmouseover=1/+/[*/[]/+alert(42);//&#39;&gt;
@@ -127,6 +291,7 @@ Sending a link like this to a victim, the victims browser would use that session
 </code></pre><pre tabindex="0"><code>&lt;a href=&#34;javascript:alert(String.fromCharCode(88,83,83))&#34;&gt;Click Me!&lt;/a&gt;
 </code></pre><pre tabindex="0"><code>&lt;IMG SRC=# onmouseover=&#34;alert(&#39;xxs&#39;)&#34;&gt;
 </code></pre><pre tabindex="0"><code>&lt;IMG SRC=/ onerror=&#34;alert(String.fromCharCode(88,83,83))&#34;&gt;&lt;/img&gt;
+<<<<<<< HEAD
 </code></pre><p>DVWA has 3 settings to show different levels of security. Below are the bypasses for each level.</p></p>
 			
 				<time datetime="2024-12-24T16:06:04&#43;01:00">Dec 24, 2024</time>
@@ -145,6 +310,34 @@ Sending a link like this to a victim, the victims browser would use that session
         	<article>
 			<h2><a href="/dvwa/xss-dom/">XSS DOM</a></h2>
 			<p><p>This attack takes advantage of the Document Object Model(DOM). Manipulating the URL to insert script or change parameters for the attack.</p>
+=======
+</code></pre><p>DVWA has 3 settings to show different levels of security. Below are the bypasses for each level.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2024-12-23T16:06:04&#43;01:00">December 23, 2024</time>
+      <h2 class="h5"><a href="/dvwa/local-file-inclusion/">Local File Inclusion</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Local File Inclusion is an attack technique in which attackers trick a web application into either running or exposing files on a web server. LFI attacks can expose sensitive information, and in severe cases, they can lead to cross-site scripting (XSS) and remote code execution. LFI is listed as one of the OWASP Top 10 web application vulnerabilities.</p>
+<p>File inclusions are a key to any server-side scripting language, and allow the content of files to be used as part of web application code. Here is an example of how LFI can enable attackers to extract sensitive information from a server. If the application uses code like this, which includes the name of a file in the URL:</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2024-12-23T16:06:04&#43;01:00">December 23, 2024</time>
+      <h2 class="h5"><a href="/dvwa/xss-dom/">XSS DOM</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>This attack takes advantage of the Document Object Model(DOM). Manipulating the URL to insert script or change parameters for the attack.</p>
+>>>>>>> f9cb3a8f3dc50b7af78dc53b8ce81c651b5c8d23
 <p>By setting up a python server, http traffic, specifically cookies can be pulled using the document.cookie parameter and be sent to the server using window.location. Input validation will stop this attack.</p>
 <p><a href="https://portswigger.net/web-security/cross-site-scripting/dom-based">https://portswigger.net/web-security/cross-site-scripting/dom-based</a></p>
 <p>Source:
@@ -164,6 +357,7 @@ In this example the source is the (document.cookie) java script property</p>
 \\ <code>localStorage</code>
 \\ <code>sessionStorage</code>
 \\ <code>IndexedDB</code> (mozIndexedDB, webkitIndexedDB, msIndexedDB)
+<<<<<<< HEAD
 \\ <code>Database</code></p></p>
 			
 				<time datetime="2024-12-23T16:06:04&#43;01:00">Dec 23, 2024</time>
@@ -208,6 +402,27 @@ In this example the source is the (document.cookie) java script property</p>
         <a href="/dvwa/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
+=======
+\\ <code>Database</code></p>
+      </p>
+      
+    </div>
+    
+    
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        
+        <li class="breadcrumb-item">
+          <a href="/dvwa/page/2/">next →</a>
+        </li>
+        
+      </ol>
+    </nav>
+    
+  </div>
+>>>>>>> f9cb3a8f3dc50b7af78dc53b8ce81c651b5c8d23
 
   </main>
 

@@ -13,7 +13,7 @@ https://www.stationx.net/javascript-for-hacking/
 
 **Low:**
 
-To make the token visible remove the "hidden" 
+To make the token visible remove the "hidden" value. 
 
 ![](1.png)
 
@@ -21,7 +21,7 @@ To make the token visible remove the "hidden"
 
 ![](3.png)
 
-This explains for to complete the task . Need to submit the word success and the correct token. 
+This explains for to complete the task. Submit the word success and the correct token. 
 
 The token is a rot13 and md5 hash of: 
 `'success' = fhpprff = 38581812b435834ebf84ebcc2c6424d6`
