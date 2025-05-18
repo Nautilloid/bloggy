@@ -36,7 +36,6 @@ To enable CSP, a response needs to include an HTTP response header called Conten
 <body
     class="dark"
 >
-  
   <main>
     
   <div class="container pt-5">
@@ -208,6 +207,24 @@ Attempts were made on my firefox(macos), firefox(kali), chromium(kali), all fail
   </main>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+    defer></script>
+
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("img").forEach(img => {
+        if (!img.loading) {
+          img.setAttribute("loading", "lazy");
+        }
+      });
+    });
+  </script>
+
+  
 </body>
 </html>
