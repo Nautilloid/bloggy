@@ -35,7 +35,7 @@
       <link>//localhost:1313/dvwa/javascript/</link>
       <pubDate>Mon, 17 Feb 2025 16:06:04 +0100</pubDate>
       <guid>//localhost:1313/dvwa/javascript/</guid>
-      <description>&lt;p&gt;JavaScript is the world&amp;rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.stationx.net/javascript-for-hacking/&#34;&gt;https://www.stationx.net/javascript-for-hacking/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Low:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To make the token visible remove the &amp;ldquo;hidden&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This explains for to complete the task . Need to submit the word success and the correct token.&lt;/p&gt;</description>
+      <description>&lt;p&gt;JavaScript is the world&amp;rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.stationx.net/javascript-for-hacking/&#34;&gt;https://www.stationx.net/javascript-for-hacking/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Low:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To make the token visible remove the &amp;ldquo;hidden&amp;rdquo; value.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This explains for to complete the task. Submit the word success and the correct token.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Content Security Policy</title>
@@ -45,7 +45,7 @@
       <description>&lt;p&gt;CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.&lt;/p&gt;&#xA;&lt;p&gt;To enable CSP, a response needs to include an HTTP response header called Content-Security-Policy with a value containing the policy. The policy itself consists of one or more directives, separated by semicolons.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bling SQL Injection</title>
+      <title>Blind SQL Injection</title>
       <link>//localhost:1313/dvwa/blind-sql-injection/</link>
       <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
       <guid>//localhost:1313/dvwa/blind-sql-injection/</guid>

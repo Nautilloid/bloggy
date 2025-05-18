@@ -1,5 +1,5 @@
 ---
-title: "Bling SQL Injection"
+title: "Blind SQL Injection"
 date: 2025-01-30T16:06:04+01:00
 draft: false
 tags: ["Caido", "Firefox", "Proxy", "Web", "upload"]

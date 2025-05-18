@@ -38,7 +38,7 @@
       <description>&lt;p&gt;CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.&lt;/p&gt;&#xA;&lt;p&gt;To enable CSP, a response needs to include an HTTP response header called Content-Security-Policy with a value containing the policy. The policy itself consists of one or more directives, separated by semicolons.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bling SQL Injection</title>
+      <title>Blind SQL Injection</title>
       <link>//localhost:1313/dvwa/blind-sql-injection/</link>
       <pubDate>Thu, 30 Jan 2025 16:06:04 +0100</pubDate>
       <guid>//localhost:1313/dvwa/blind-sql-injection/</guid>

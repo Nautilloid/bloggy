@@ -5,14 +5,6 @@ theme = 'not-much'
 copyright = "take what you need © {year}"
 
 
-# Controls the navigation
-[[menu.main]]
-  identifier =  "about"
-  name = "about"
-  title = "About"
-  url = "/"
-
-
 # Navigation
 [menu]
   [[menu.main]]
@@ -27,20 +19,27 @@ copyright = "take what you need © {year}"
     name = "lab"
     title = "lab"
     url = "/lab"
-    weight = 3
+    weight = 2
   
   [[menu.main]]
     identifier = "about"
     name = "about"
     title = "About"
     url = "/about"
-    weight = 2
+    weight = 6
   
 [[menu.main]]
     identifier = "dvwa"
     name = "dvwa"
     title = "dvwa"
     url = "/dvwa"
+    weight = 3
+
+[[menu.main]]
+    identifier = "portswigger"
+    name = "portswigger"
+    title = "portswigger"
+    url = "/portswigger"
     weight = 4
 
   [[menu.main]]
@@ -48,7 +47,7 @@ copyright = "take what you need © {year}"
     name = "github"
     title = "GitHub"
     url = "https://github.com/Nautilloid"
-    weight = 5
+    weight = 6
 
 
 

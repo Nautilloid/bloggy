@@ -10,7 +10,7 @@
 <meta property="og:url" content="//localhost:1313/">
   <meta property="og:site_name" content="Rich told me to blog">
   <meta property="og:title" content="Rich told me to blog">
-  <meta property="og:description" content="We all have our blindspots, what’s yours?">
+  <meta property="og:description" content="💡 Check the about page">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
@@ -33,8 +33,15 @@
   
   <main>
     
-  <p>We all have our blindspots, what&rsquo;s yours?</p>
+  <p>💡 Check the <a href="./about">about page</a></p>
 
+  
+    <h2><a href="/portswigger/xxe-portswigger/">XML external entity injection XXE</a></h2>
+    <p>XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application&rsquo;s processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any back-end or external systems that the application itself can access.
+-Portswigger- <a href="https://portswigger.net/web-security/xxe">https://portswigger.net/web-security/xxe</a></p>
+<p>Background</p>
+<p>XML, Extensible Markup Langauge is a language designed for storing and transporting data. Like HTML, XML uses a tree-like structure of tags and data. Unlike HTML, XML does not use predefined tags, and so tags can be given names that describe the data. Earlier in the web&rsquo;s history, XML was in vogue as a data transport format (the &ldquo;X&rdquo; in &ldquo;AJAX&rdquo; stands for &ldquo;XML&rdquo;). But its popularity has now declined in favor of the JSON format.
+-Portswigger- <a href="https://portswigger.net/web-security/xxe/xml-entities">https://portswigger.net/web-security/xxe/xml-entities</a></p>
   
     <h2><a href="/lab/ipv4-representation/">IPv4 Representation</a></h2>
     <p>First, some background</p>
@@ -76,11 +83,11 @@ Sending a link like this to a victim, the victims browser would use that session
     <p>JavaScript is the world&rsquo;s most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws.</p>
 <p><a href="https://www.stationx.net/javascript-for-hacking/">https://www.stationx.net/javascript-for-hacking/</a></p>
 <p><strong>Low:</strong></p>
-<p>To make the token visible remove the &ldquo;hidden&rdquo;</p>
+<p>To make the token visible remove the &ldquo;hidden&rdquo; value.</p>
 <p><img src="1.png" alt=""></p>
 <p><img src="2.png" alt=""></p>
 <p><img src="3.png" alt=""></p>
-<p>This explains for to complete the task . Need to submit the word success and the correct token.</p>
+<p>This explains for to complete the task. Submit the word success and the correct token.</p>
   
     <h2><a href="/dvwa/content-security-policy-bypass/">Content Security Policy</a></h2>
     <p>CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.</p>
@@ -92,7 +99,7 @@ The purpose of this lab is to give pentesters a vulnerable Active directory envi
 <p><img src="1.png" alt=""></p>
 <p>Using this guide setup your GOAD LAB on your server.</p>
   
-    <h2><a href="/dvwa/blind-sql-injection/">Bling SQL Injection</a></h2>
+    <h2><a href="/dvwa/blind-sql-injection/">Blind SQL Injection</a></h2>
     <p>Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.</p>
 <p>Many techniques such as UNION attacks are not effective with blind SQL injection vulnerabilities. This is because they rely on being able to see the results of the injected query within the application&rsquo;s responses. It is still possible to exploit blind SQL injection to access unauthorized data, but different techniques must be used.</p>
   
