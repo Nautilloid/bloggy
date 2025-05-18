@@ -39,7 +39,6 @@ Without:![[Screenshot 2025-01-09 at 5.24.52 pm.png]]">
 <body
     class="dark"
 >
-  
   <main>
     
   <div class="container pt-5">
@@ -167,6 +166,24 @@ curl -vv -b &ldquo;security=low; PHPSESSID=ungj5i2cirq9jvfrsjju273l53&rdquo; &nd
   </main>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+    defer></script>
+
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("img").forEach(img => {
+        if (!img.loading) {
+          img.setAttribute("loading", "lazy");
+        }
+      });
+    });
+  </script>
+
+  
 </body>
 </html>
