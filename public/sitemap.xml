@@ -2,58 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-<<<<<<< HEAD
-    <loc>/dvwa/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
   </url><url>
     <loc>/tags/portswigger/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
   </url><url>
     <loc>/tags/security/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
   </url><url>
     <loc>/categories/web/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
   </url><url>
     <loc>/tags/web/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
+    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
   </url><url>
-    <loc>/dvwa/xxe-portswigger/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
+    <loc>/portswigger/xxe-portswigger/</loc>
+    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
   </url><url>
     <loc>/tags/xxe/</loc>
-    <lastmod>2025-05-17T16:06:04+01:00</lastmod>
-=======
-    <loc>//localhost:1313/categories/</loc>
     <lastmod>2025-05-15T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/portswigger/</loc>
-    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
-    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/web/</loc>
-    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/web/</loc>
-    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/portswigger/xxe-portswigger/</loc>
-    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/xxe/</loc>
-    <lastmod>2025-05-15T16:06:04+01:00</lastmod>
->>>>>>> f9cb3a8f3dc50b7af78dc53b8ce81c651b5c8d23
   </url><url>
     <loc>/tags/cidr/</loc>
     <lastmod>2025-05-09T16:06:04+01:00</lastmod>
@@ -97,17 +68,13 @@
     <loc>/about/</loc>
     <lastmod>2025-04-24T17:58:51+10:00</lastmod>
   </url><url>
-<<<<<<< HEAD
+    <loc>/dvwa/</loc>
+    <lastmod>2025-04-24T17:58:51+10:00</lastmod>
+  </url><url>
+    <loc>/portswigger/</loc>
+    <lastmod>2025-04-24T17:58:51+10:00</lastmod>
+  </url><url>
     <loc>/</loc>
-=======
-    <loc>//localhost:1313/dvwa/</loc>
-    <lastmod>2025-04-24T17:58:51+10:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/portswigger/</loc>
-    <lastmod>2025-04-24T17:58:51+10:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
->>>>>>> f9cb3a8f3dc50b7af78dc53b8ce81c651b5c8d23
     <lastmod>2025-04-24T17:58:51+10:00</lastmod>
   </url><url>
     <loc>/tags/caido/</loc>

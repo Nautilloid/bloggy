@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rich told me to blog</title>
-    <link>//localhost:1313/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Rich told me to blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>take what you need © {year}</copyright>
     <lastBuildDate>Thu, 15 May 2025 16:06:04 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web</title>
-      <link>//localhost:1313/categories/web/</link>
+      <link>/categories/web/</link>
       <pubDate>Thu, 15 May 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/categories/web/</guid>
+      <guid>/categories/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Lab</title>
-      <link>//localhost:1313/categories/lab/</link>
+      <link>/categories/lab/</link>
       <pubDate>Fri, 09 May 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/categories/lab/</guid>
+      <guid>/categories/lab/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>//localhost:1313/categories/hacking/</link>
+      <link>/categories/hacking/</link>
       <pubDate>Fri, 21 Mar 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/categories/hacking/</guid>
+      <guid>/categories/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Tool Setup</title>
-      <link>//localhost:1313/categories/tool-setup/</link>
+      <link>/categories/tool-setup/</link>
       <pubDate>Thu, 13 Feb 2025 16:06:04 +0100</pubDate>
-      <guid>//localhost:1313/categories/tool-setup/</guid>
+      <guid>/categories/tool-setup/</guid>
       <description></description>
     </item>
   </channel>
