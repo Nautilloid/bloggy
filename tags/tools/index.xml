@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Rich told me to blog</title>
+    <link>/tags/tools/</link>
+    <description>Recent content in Tools on Rich told me to blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>take what you need © {year}</copyright>
+    <lastBuildDate>Tue, 17 Dec 2024 17:58:51 +1000</lastBuildDate>
+    <atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenVAS installation &amp;&amp; troubleshooting</title>
+      <link>/lab/openvas-installation/</link>
+      <pubDate>Tue, 17 Dec 2024 17:58:51 +1000</pubDate>
+      <guid>/lab/openvas-installation/</guid>
+      <description>&lt;p&gt;Installing OpenVAS on Kali for free vulnerability scanner&lt;/p&gt;&#xA;&lt;p&gt;Follow the instructions in this link:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://greenbone.github.io/docs/latest/22.4/kali/index.html&#34;&gt;https://greenbone.github.io/docs/latest/22.4/kali/index.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Troubleshooting:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Before running the gvm-setup command from the tutorial above you need to upgrade PostgreSQL to version 17&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://secburg.com/posts/howto-upgrade-postgresql-16-to-17/&#34;&gt;https://secburg.com/posts/howto-upgrade-postgresql-16-to-17/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;3.png&#34; alt=&#34;&#34;&gt;&#xA;Add: &lt;code&gt;ExecStart=/usr/sbin/gsad --listen=x.x.x.x --port 9392&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;To: &lt;code&gt;/usr/lib/systemd/system/gsad.service&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl daemon-reload &amp;amp;&amp;amp; sudo gvm-start&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

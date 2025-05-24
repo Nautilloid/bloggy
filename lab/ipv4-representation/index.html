@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+<meta property="og:url" content="/lab/ipv4-representation/">
+  <meta property="og:site_name" content="Rich told me to blog">
+  <meta property="og:title" content="IPv4 Representation">
+  <meta property="og:description" content="Exploring IPv4 quirks, header stripping, and datagram fragmentation through RFC 791 and practical examples. Includes packet interpretation and alternate IP representations.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="lab">
+    <meta property="article:published_time" content="2025-05-09T16:06:04+01:00">
+    <meta property="article:modified_time" content="2025-05-09T16:06:04+01:00">
+    <meta property="article:tag" content="IPv4">
+    <meta property="article:tag" content="Security">
+    <meta property="article:tag" content="Hacking">
+    <meta property="article:tag" content="Web">
+    <meta property="article:tag" content="CIDR">
+
+<title>Rich told me to blog | IPv4 Representation</title>
+
+      <link rel="stylesheet" href="/css/main.min.9d7861a670d885bddfdca28e2bec973020e2e1f1b049a5849a85a2e0fa249e4c.css" integrity="sha256-nXhhpnDYhb3f3KKOK&#43;yXMCDi4fGwSaWEmoWi4Poknkw=" crossorigin="anonymous">
+  
+        <link rel="stylesheet" href="/css/palette/catpuccin.min.a6f1bd4508a6b97805eeaaeb50fc8c575ad5fa2c430125dd9d003f2ea254600d.css" integrity="sha256-pvG9RQimuXgF7qrrUPyMV1rV&#43;ixDASXdnQA/LqJUYA0=" crossorigin="anonymous">
+
+      <script src="/js/main.86bb3d8e6f46df0fc97c2731e6b99175a13b87a4086acf578ff9b6992fcf32c1.js" integrity="sha256-hrs9jm9G3w/JfCcx5rmRdaE7h6QIas9Xj/m2mS/PMsE=" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5">
+      
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/lab"
+        class="text-decoration-underline link-offset-3"
+        
+      >lab</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/dvwa"
+        
+      >dvwa</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/portswigger"
+        
+      >portswigger</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/about"
+        
+      >about</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/Nautilloid"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+    </div>
+    
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">IPv4 Representation</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2025-05-09T16:06:04&#43;01:00">May 9, 2025</time>
+            </li>
+            <li class="breadcrumb-item small">
+              2 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>First, some background</p>
+<p><img src="1.png" alt=""></p>
+<p><a href="https://www.rfc-editor.org/rfc/rfc791">https://www.rfc-editor.org/rfc/rfc791</a></p>
+<p>Steve Gibson GRC explains the Internet
+<a href="https://www.youtube.com/watch?v=7ALMh6I1fAo">https://www.youtube.com/watch?v=7ALMh6I1fAo</a></p>
+<p>The model of operation is that an internet module resides in each host
+engaged in internet communication and in each gateway that
+interconnects networks.  These modules share common rules for
+interpreting address fields and for fragmenting and assembling
+internet datagrams.  In addition, these modules (especially in
+gateways) have procedures for making routing decisions and other
+functions. -rfc791-</p>
+<p>The datagram arrives at a gateway host wrapped in the local network
+header, the local network interface strips off this header, and turns the datagram over to the internet module.  The internet module determines from the internet address that the datagram is to be forwarded to another host in a second network.  The internet module determines a local net address for the destination host.  It calls on the local network interface for that network to send the datagram. -rfc791-</p>
+<ul>
+<li>This &ldquo;stripping&rdquo; of the header means: Once the address has been found from the header in the frame. The information/data is handed to the next layer to be read. This is &ldquo;stripped&rdquo; or &ldquo;unwrapped&rdquo; but simply put the location of the binary in the packet is read depending on its location in the pack</li>
+</ul>
+<p><img src="2.jpg" alt=""></p>
+<p>Fragmentation of an internet datagram is necessary when it originates in a local net that allows large packet size and must traverse a local net that limits packets to a smaller size to reach its destination.</p>
+<p>?? Could you reorder the packet to avoid detection ??</p>
+<p><strong>IPv4 Alternative Representation</strong></p>
+<p>Uniform Resource Identifier (URI): Generic Syntax
+<a href="https://www.rfc-editor.org/rfc/rfc3986">https://www.rfc-editor.org/rfc/rfc3986</a></p>
+<p><code>curl -v https://0x8.0X8.010.8</code></p>
+<p><img src="5.png" alt=""></p>
+<p><code>curl -v https://0x8.0010.010.8</code></p>
+<p><a href="https://dominicbreuker.com/post/filters_bypasses_rare_ipv4_formats_for_ssrf/">https://dominicbreuker.com/post/filters_bypasses_rare_ipv4_formats_for_ssrf/</a>
+<a href="https://dominicbreuker.com/encoders/#ipv4-addresses">https://dominicbreuker.com/encoders/#ipv4-addresses</a></p>
+<p><img src="4.png" alt=""></p>
+<p>Tool for converting IP&rsquo;s
+<a href="https://github.com/GxbNt/IPConverter/blob/main/README.md">https://github.com/GxbNt/IPConverter/blob/main/README.md</a></p>
+<p><img src="3.png" alt=""></p>
+<p>I&rsquo;ve been told there is a way to force the CIDR range to divide by 2 if its over 255 but I can&rsquo;t find and research on it&hellip;.. yet.</p>
+<p><img src="6.png" alt=""></p>
+
+      </article>
+      
+  <div class="tags pb-4 pt-2">
+    
+    
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/ipv4/">IPv4</a>
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/security/">Security</a>
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/hacking/">Hacking</a>
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/web/">Web</a>
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/cidr/">CIDR</a>
+  </div>
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="/lab/setting-up-de-blog/">
+            <span>previous: </span>
+            <span>Setting up bloggy</span>
+        </a>
+        
+    </div>
+    <div class="col-md text-md-end">
+        
+    </div>
+</div>
+    </div>
+  </div>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        take what you need © 2025
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
+
+  </footer>
+
+  </main>
+
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+    defer></script>
+
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("img").forEach(img => {
+        if (!img.loading) {
+          img.setAttribute("loading", "lazy");
+        }
+      });
+    });
+  </script>
+
+  
+</body>
+</html>
