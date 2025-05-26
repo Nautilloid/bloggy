@@ -233,6 +233,17 @@ hugo server -D
 ---
 **Self-hosting**
 
+*Important Note:
+[https://driverevive.com.au/lab/cloudflare-tunnel/]
+
+Due to ISP medling, and their use of a CGNAT that throttles and intermittantly blocks requests I needed to find a better option. 
+
+- Cloudflare tunnel creates safe tunnel between server and cloudflare without exposing router ports.
+- It has build-in security features.
+- Massive performance increase.
+
+I learnt the hard way that self-hosting using this method was problematic but I learnt a lot about firewall, DNS and CGNAT. Fail up!
+
 Self-host a secure via https
 Hypervisor: Proxmox
 VM OS: Ubuntu
@@ -240,7 +251,7 @@ Blog: Hugo
 Web Server: Nginx
 Domain: driverive.com.au
 Domain Registrar: GoDaddy
-NO-IP DDNS-hostname: driverive.ddns.net
+*NO-IP DDNS-hostname: driverive.ddns.net
 Router: Unifi
 
 

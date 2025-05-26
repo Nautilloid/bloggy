@@ -13,7 +13,9 @@ This provides a little info and some alternative solutions.
 https://www.whistleout.com.au/Broadband/Guides/what-is-CGNAT-and-how-to-opt-out
 
 
-Using a cloudflare tunnel we can authorise a tunnel directly between your server and the cloudflare exit node. It also provides features and free security protections. 
+Using a cloudflare tunnel we can authorise a tunnel directly between your server and the cloudflare exit node. This free service provides powerful features and free security protections. 
+
+https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
 
 ----
 First you'll need to set up a free account with cloudflare at:
