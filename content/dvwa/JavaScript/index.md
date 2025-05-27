@@ -4,6 +4,7 @@ date: 2025-02-17T16:06:04+01:00
 draft: false
 tags: ["DVWA", "Security", "Web", "Server", JavaScript]
 categories: ["Hacking"]
+description: "Explore how JavaScript can be used to identify and exploit web application vulnerabilities in DVWA. This guide covers practical examples of analyzing and manipulating client-side code, understanding token generation, and using browser developer tools to bypass security mechanisms. Includes step-by-step walkthroughs for different security levels and debugging tips."
 ---
 
 JavaScript is the world's most popular programming langauge. Its prevalence, along with its client-side execution, creates opportunities for various attack vectors. JavaScript to identify and exploit vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and some mention of other common security flaws. 

@@ -4,6 +4,7 @@ date: 2025-02-25T16:06:04+01:00
 draft: false
 tags: ["Caido", "CSRF", "Web", "DVWA"]
 categories: ["Hacking"]
+description: "A practical guide to understanding and exploiting Cross Site Request Forgery (CSRF) vulnerabilities using DVWA. Learn how attackers craft malicious requests, bypass CSRF protections, and use tools like Burp Suite and Caido to generate proof-of-concept attacks. Includes step-by-step examples for different security levels and tips for analyzing CSRF tokens."
 ---
 An attacker causes a victim to carry out an action unintentionally on a web application. An example would be changing a victims user email credentials to an email address that the attacker controls by intercepting the victims session.
 

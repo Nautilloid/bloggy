@@ -1,10 +1,10 @@
-
 ---
 title: "File Upload Vulnerabilities"
 date: 2025-01-15T16:06:04+01:00
 draft: false
 tags: ["Caido", "Firefox", "Proxy", "DVWA"]
 categories: ["Hacking"]
+description: "A practical guide to exploiting file upload vulnerabilities in DVWA. Learn how attackers bypass file type and content restrictions to upload malicious files, achieve remote code execution, and escalate privileges. Includes hands-on examples for different security levels, payload generation, and evasion techniques using tools like Weevely, Burp Suite, and hex editors."
 ---
 
  File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.

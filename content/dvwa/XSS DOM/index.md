@@ -4,6 +4,7 @@ date: 2024-12-23T16:06:04+01:00
 draft: false
 tags: ["Caido", "XXS", "Web"]
 categories: ["Hacking"]
+description: "A practical guide to exploiting DOM-based Cross-Site Scripting (XSS) vulnerabilities in DVWA. Learn how attackers manipulate the Document Object Model to execute malicious scripts, steal cookies, and bypass input validation. Includes hands-on payloads, real-world examples, and tips for detection and prevention."
 ---
 
 This attack takes advantage of the Document Object Model(DOM). Manipulating the URL to insert script or change parameters for the attack. 

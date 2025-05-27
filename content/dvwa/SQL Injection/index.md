@@ -4,6 +4,7 @@ date: 2024-02-07T16:06:04+01:00
 draft: false
 tags: ["Caido", "SQL", "Web"]
 categories: ["Hacking"]
+description: "A practical guide to exploiting SQL Injection vulnerabilities in DVWA. Learn how attackers manipulate SQL queries to access or modify sensitive data, use UNION-based attacks, and extract password hashes. Includes hands-on examples, screenshots, and tips for using tools like Caido and hashcat for post-exploitation."
 ---
 
  SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. This can allow an attacker to view data that they are not normally able to retrieve. This might include data that belongs to other users, or any other data that the application can access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application's content or behavior. 

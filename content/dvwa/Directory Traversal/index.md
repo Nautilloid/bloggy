@@ -4,6 +4,7 @@ date: 2025-02-25T16:06:04+01:00
 draft: false
 tags: ["Caido", "Path", "Web", "DVWA"]
 categories: ["Hacking"]
+description: "Learn how path traversal (directory traversal) vulnerabilities can be exploited to access sensitive files outside the web root using DVWA. This guide explains attack techniques, real-world examples, and practical payloads, with tips for identifying and testing for traversal flaws."
 ---
 
 

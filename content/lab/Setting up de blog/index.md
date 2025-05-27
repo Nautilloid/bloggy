@@ -4,6 +4,7 @@ date: 2025-05-02T16:06:04+01:00
 draft: false
 tags: ["lab", "Security", "Nginx", "Proxmox", "Hugo", "Git", "Obsidian"]
 categories: ["lab"]
+description: "A comprehensive guide to setting up a self-hosted Hugo blog using Ubuntu, Nginx, Proxmox, Git, and Obsidian. Learn best practices for folder structure, image management, version control, HTTPS configuration, and integrating dynamic DNS with No-IP and GoDaddy. Includes troubleshooting tips, workflow recommendations for MacOS, and firewall hardening steps."
 ---
 
 **Technologies**
@@ -234,7 +235,7 @@ hugo server -D
 **Self-hosting**
 
 *Important Note:
-[https://driverevive.com.au/lab/cloudflare-tunnel/]
+https://driverevive.com.au/lab/cloudflare-tunnel/
 
 Due to ISP medling, and their use of a CGNAT that throttles and intermittantly blocks requests I needed to find a better option. 
 
@@ -243,6 +244,8 @@ Due to ISP medling, and their use of a CGNAT that throttles and intermittantly b
 - Massive performance increase.
 
 I learnt the hard way that self-hosting using this method was problematic but I learnt a lot about firewall, DNS and CGNAT. Fail up!
+
+---------
 
 Self-host a secure via https
 Hypervisor: Proxmox

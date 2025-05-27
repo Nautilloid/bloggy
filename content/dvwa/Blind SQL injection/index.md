@@ -4,6 +4,7 @@ date: 2025-01-30T16:06:04+01:00
 draft: false
 tags: ["Caido", "Firefox", "Proxy", "Web", "upload"]
 categories: ["Hacking"]
+description: "A practical walkthrough of exploiting Blind SQL Injection vulnerabilities in DVWA. Learn manual and automated techniques, including boolean and time-based attacks, and see how to leverage tools like SQLmap and Caido for database extraction and exploitation."
 ---
 
  Blind SQL injection occurs when an application is vulnerable to SQL injection, but its HTTP responses do not contain the results of the relevant SQL query or the details of any database errors.

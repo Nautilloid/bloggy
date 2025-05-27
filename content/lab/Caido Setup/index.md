@@ -4,6 +4,7 @@ date: 2024-02-07T16:06:04+01:00
 draft: false
 tags: ["Caido", "Firefox", "Proxy", "Certificate", "Caido"]
 categories: ["Tool Setup"]
+description: "A troubleshooting guide for resolving Caido certificate errors in Firefox when using Caido as a proxy. Learn how to properly install and trust the Caido certificate, adjust Firefox settings, and ensure secure interception of HTTPS traffic for web security testing."
 ---
 
 Use the following guide to install the package:  

@@ -4,6 +4,7 @@ date: 2024-12-24T16:06:04+01:00
 draft: false
 tags: ["DVWA", "Firefox", "Proxy", "Security"]
 categories: ["Web"]
+description: "A practical guide to exploiting Reflected Cross-Site Scripting (XSS) vulnerabilities in DVWA. Learn how attackers inject malicious scripts via URLs, bypass input filters at different security levels, and use payloads to steal cookies or execute arbitrary JavaScript. Includes hands-on examples, screenshots, and references for further learning."
 ---
 
 Reflected XSS is an injection attack where malicious scripts are sent to a vulnerable web server (often via URLs), and the server immediately includes (reflects) those scripts unsanitized in the HTML response back to the victim's browser, which then executes them. It relies on the server reflecting user input directly into the response page.

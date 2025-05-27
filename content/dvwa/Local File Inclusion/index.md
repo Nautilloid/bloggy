@@ -4,6 +4,7 @@ date: 2024-12-23T16:06:04+01:00
 draft: false
 tags: ["Caido", "LFI", "Web"]
 categories: ["Hacking"]
+description: "A practical guide to exploiting Local File Inclusion (LFI) vulnerabilities in DVWA. Learn how attackers can access sensitive files, achieve code execution, and escalate privileges using LFI techniques. This guide covers real-world payloads, log poisoning, remote file inclusion, and tips for detection and prevention, with hands-on examples and screenshots."
 ---
 Local File Inclusion is an attack technique in which attackers trick a web application into either running or exposing files on a web server. LFI attacks can expose sensitive information, and in severe cases, they can lead to cross-site scripting (XSS) and remote code execution. LFI is listed as one of the OWASP Top 10 web application vulnerabilities.
 

@@ -4,6 +4,7 @@ date: 2025-02-13T16:06:04+01:00
 draft: false
 tags: ["Caido", "Security", "Web",]
 categories: ["Hacking"]
+description: "Explore how Content Security Policy (CSP) works to prevent XSS attacks, and learn common pitfalls and bypass techniques using DVWA. This guide covers practical examples of CSP misconfigurations, content-type issues, and nonce-based script execution, with hands-on analysis and screenshots."
 ---
 
 CSP is a browser security mechanism that aims to mitigate XSS and some other attacks. It works by restricting the resources (such as scripts and images) that a page can load and restricting whether a page can be framed by other pages.

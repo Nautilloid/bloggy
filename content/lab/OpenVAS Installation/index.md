@@ -5,6 +5,7 @@ draft: "false"
 description: "Installing OpenVAS vulnerabilty scanner on Kali"
 tags: ["Vulnerablilty Scanner", "Kali", "OpenVAS", "Greenbone", "Tools"]
 categories: ["Tool Setup"]
+description: "A step-by-step guide to installing and troubleshooting OpenVAS on Kali Linux. Learn how to set up the Greenbone vulnerability scanner, resolve common issues like PostgreSQL upgrades, and configure the service for remote access. Includes practical tips and screenshots for a smooth installation process."
 ---
 
 Installing OpenVAS on Kali for free vulnerability scanner

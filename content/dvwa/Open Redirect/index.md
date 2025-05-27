@@ -4,6 +4,7 @@ date: 2025-03-21T16:06:04+01:00
 draft: false
 tags: ["Caido", "Redirects", "Web", "DVWA"]
 categories: ["Hacking"]
+description: "Learn how to identify and exploit open redirect vulnerabilities in DVWA. This guide explains how unvalidated redirects can be abused for phishing and credential theft, demonstrates practical attack techniques across different security levels, and provides tips for detection and prevention with hands-on examples and screenshots."
 ---
 
 Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.

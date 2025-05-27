@@ -4,6 +4,7 @@ date: 2025-02-13T16:06:04+01:00
 draft: false
 tags: ["Windows", "Security", "Active Directory", "Server"]
 categories: ["Tool Setup"]
+description: "A step-by-step guide to setting up the GOAD Active Directory lab environment for Windows security testing. Learn how to deploy vulnerable domain controllers and servers, configure firewall rules, and troubleshoot common installation issues. Ideal for pentesters and security professionals practicing AD attack techniques."
 ---
 
 GOAD is a simulated Active Directory LAB environment used to execute Windows attacks

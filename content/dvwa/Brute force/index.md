@@ -4,6 +4,7 @@ date: 2024-02-07T16:06:04+01:00
 draft: false
 tags: ["Caido", "Web", "DVWA"]
 categories: ["Hacking"]
+description: "A hands-on guide to brute force attacks using DVWA. Learn how to automate login attempts with Caido and wfuzz, build effective username and password lists, and understand response analysis for successful credential discovery. Includes practical tips for both manual and automated approaches."
 ---
 
 A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response. For the sake of efficiency, an attacker may use a dictionary attack (with or without mutations) or a traditional brute-force attack (with given classes of characters e.g.: alphanumeric, special, case (in)sensitive). Considering a given method, number of tries, efficiency of the system which conducts the attack, and estimated efficiency of the system which is attacked the attacker is able to calculate approximately how long it will take to submit all chosen predetermined values.
