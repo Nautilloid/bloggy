@@ -41,7 +41,6 @@ The robots.txt file gives us a juicy clue
 
 
 ![](4.png)
-![[Screenshot 2025-05-31 at 2.27.42 pm.png]]
 
 ![](5.png)
 
@@ -49,8 +48,6 @@ The robots.txt file gives us a juicy clue
 Next Lab:
 
 Navigate to the a product page and then 'inspect'
-
-**Screenshot here** 
 
 I then searched: script
 
@@ -143,15 +140,15 @@ In Caido, grab the POST request and send it to Automate.
 
 Copy the contents of the username and passwords into seperate files and upload them to Caido 
 
-![[22a.png]]
+![](22a.png)
 
-![[22.png]]
+![](22.png)
 
 Select the username you've entered on the login page and then hit the '+' icon in the top right to add a payload. Do the same for your password. Select Matrix, this will run through both payload files checking each password for every username.  
 
-![[23.png]]
+![](23.png)
 
 Your results can be sorted by Status and length. Sometimes its the status's will be the same e.g 200 will be a successful attempt so you wont be able to sort via the status. Notice that a successful attempt will show a different Response length. Play with the results to find the needle in the haystack. 
 
-![[24.png]]
+![](24.png)
 
