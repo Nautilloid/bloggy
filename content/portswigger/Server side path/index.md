@@ -1,10 +1,10 @@
 ---
 title: "Server Side Vulnerabilities"
-date: 2025-06-1T16:06:04+01:00
+date: 2025-06-01T16:06:04+01:00
 draft: false
 tags: ["Security", "Apprentice", "web", "Portswigger", "Caido", "Brute Force", "Path Traversal"]
 categories: ["web", "Portswigger"]
-description: "Another guide through the Apprentice-level Server Side Vulnerabilities pathway on PortSwigger. Covers practical labs and techniques for path traversal, access control, privilege escalation, and brute force attacks, with step-by-step walkthroughs and tips for using tools like Caido."
+description: "Another guide through the Apprentice-level Server Side Vulnerabilities pathway on Portswigger. Covers practical labs and techniques for path traversal, access control, privilege escalation, and brute force attacks, with step-by-step walkthroughs and tips for using tools like Caido."
 ---
 
 This is a guide for the Apprentice level Server Side Vulnerabilities pathway on Portswigger.  I'm pretty impressed with the amount of free content on this platform. It is well written and it starts out pretty easy, then leads you deeper into more complex concepts. 
