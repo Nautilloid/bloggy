@@ -67,3 +67,16 @@ add_header Content-Security-Policy "default-src 'self'; img-src 'self'; script-s
 Now:
 
 ![](8.png)
+
+------
+
+I went back to google insights and ran another scan. The results were good, but not great. Insights helped me develop a new content-security-policy that fixes some of the terminal error issues. 
+
+![](9.png)
+
+```
+default-src 'self'; img-src 'self' data:; script-src 'self' https://cdn.jsdelivr.net https://static.cloudflareinsights.com 'sha256-DuDh/WzLwaNM4znNt5ihu6SQB7mrlqvMcaSDVxPx70o='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';
+```
+Now I believe we are done!
+
+![](10.png)
