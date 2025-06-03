@@ -253,3 +253,44 @@ GET /files/avatars/carlos.php HTTP/1.1
 ![](43.png)
 
 ------------------
+
+
+**Web shell upload via Content-Type restriction bypass**
+
+Login as wiener:peter and upload your malicious php file. 
+
+![](44.png)
+
+When you see the error, find the POST request in Caido and send it to 'replay'.
+
+![](45.png)
+
+Replace application/x-php with: `image/png`
+
+![](46.png)
+
+![](47.png)
+
+--------------
+
+**OS command injection**
+
+OS command injection is also known as shell injection. It allows an attacker to execute operating system (OS) commands on the server that is running an application, and typically fully compromise the application and its data. Often, an attacker can leverage an OS command injection vulnerability to compromise other parts of the hosting infrastructure, and exploit trust relationships to pivot the attack to other systems within the organisation. -Portswigger-
+
+| Purpose of command    | Linux         | Windows         |
+| --------------------- | ------------- | --------------- |
+| Name of current user  | `whoami`      | `whoami`        |
+| Operating system      | `uname -a`    | `ver`           |
+| Network configuration | `ifconfig`    | `ipconfig /all` |
+| Network connections   | `netstat -an` | `netstat -an`   |
+| Running processes     | `ps -ef`      | `tasklist`      |
+
+ **OS command injection, simple case**
+
+Navigate to the check stock botton in one of the item pages. 
+Send the GET request to reply. 
+add: |whoami to the after storeid=1
+
+![](48.png)
+
+![](49.png)
