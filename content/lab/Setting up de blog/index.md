@@ -30,7 +30,7 @@ This way I can easily find it later when I want to add firewall rules and use th
 Once you have the CT setup, login and update.
 
 ```
-apt update && upgrade -y
+apt update && apt upgrade -y
 apt install -y nginx git
 systemctl start nginx
 systemctl enable nginx

@@ -85,7 +85,7 @@ Insert this call to the Xinclude library where the ProductID is:
 
 **XXE attacks via file upload**
 
-This one is a little harder. start by upload an .svg file as a post. Grab a common svg file like this from the webe
+This one is a little harder. start by upload an .svg file as a post. Grab a common svg file like this from the web.
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"

@@ -294,3 +294,16 @@ add: |whoami to the after storeid=1
 ![](48.png)
 
 ![](49.png)
+
+------------
+
+**SQL injection vulnerability LAB**
+
+Navigate to the gifts section of the site. 
+Add `'OR'+1+1--`  to the url 
+
+![](50.png)
+
+![](51.png)
+
+![](52.png)
