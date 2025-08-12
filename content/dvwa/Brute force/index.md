@@ -2,7 +2,8 @@
 title: "Brute Force"
 date: 2024-02-07T16:06:04+01:00
 draft: false
-tags: ["Caido", "Web", "DVWA"]
+type: post
+tags: ["Caido", "Web", "DVWA", "featured"]
 categories: ["Hacking"]
 description: "A hands-on guide to brute force attacks using DVWA. Learn how to automate login attempts with Caido and wfuzz, build effective username and password lists, and understand response analysis for successful credential discovery. Includes practical tips for both manual and automated approaches."
 ---

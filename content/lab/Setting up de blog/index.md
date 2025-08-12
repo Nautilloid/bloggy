@@ -40,7 +40,7 @@ cd /var/www/
 ---
 **Hugo**
 
-When installing Hugo from the apt repository I found that I would install an old version that was incompatible with certain themes. I initially used apt install hugo but then upgraded b using the following: 
+When installing Hugo from the apt oprepository I found that I would install an old version that was incompatible with certain themes. I initially used apt install hugo but then upgraded b using the following: 
 
 Find the latest releases here: https://github.com/gohugoio/hugo/releases
 Because I have an ubuntu container in proxmox running on x86 architecture, I downloaded the hugo_0.145.0_linux-amd64.deb file. The version will most likely be out of date but the commands the same.

@@ -2,16 +2,16 @@
 title: "Curlacking"
 date: 2025-01-09T16:06:04+01:00
 draft: false
+tags: ["tools", "Web", "featured"]
 ---
 
-Launched 1998, curl is a tool for transferring data from or to a server using URLs, with over 230 command line options. This briefly shows some of the ways to use it for reconnosince and 
+Launched 1998, curl is a tool for transferring data from or to a server using URLs, with over 230 command line options. This briefly shows some of the ways to use it for reconnosince. 
 
 
 
 curl -I http://192.168.10.123/dvwa/
 	-I just returns the head
 
-![[Screenshot 2025-01-09 at 3.56.45 pm.png]]
 
 curl https://example.com/[1-9].html
 
