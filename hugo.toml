@@ -21,13 +21,6 @@ copyright = "take what you need © {year}"
     url = "/lab"
     weight = 2
   
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    title = "About"
-    url = "/about"
-    weight = 6
-  
 [[menu.main]]
     identifier = "dvwa"
     name = "dvwa"
@@ -36,18 +29,32 @@ copyright = "take what you need © {year}"
     weight = 3
 
 [[menu.main]]
+    identifier = "owasp-shop"
+    name = "owasp-shop"
+    title = "owasp-shop"
+    url = "/owasp-shop"
+    weight = 4
+
+[[menu.main]]
     identifier = "portswigger"
     name = "portswigger"
     title = "portswigger"
     url = "/portswigger"
-    weight = 4
+    weight = 5
 
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "About"
+    url = "/about"
+    weight = 6
+  
   [[menu.main]]
     identifier = "github"
     name = "github"
     title = "GitHub"
     url = "https://github.com/Nautilloid"
-    weight = 6
+    weight = 7
 
 
 
