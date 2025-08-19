@@ -2,7 +2,7 @@
 title: "OWASP Juice-shop setup guide"
 date: 2025-08-08T16:06:04+01:00
 draft: false
-tags: ["owasp", "Proxmox", "Ubuntu", "Web", "Caido"]
+tags: ["owasp", "Proxmox", "Ubuntu", "Web", "nginx"]
 categories: ["Tool Setup"]
 description: "A comprehensive guide to deploying OWASP Juice Shop on an Ubuntu VM within a Proxmox environment. It details the entire process from setting a static IP address with Netplan to configuring Nginx as a reverse proxy for seamless network access. The guide also includes a dedicated troubleshooting section for common issues, ensuring readers can get the secure test environment up and running smoothly."
 ---
