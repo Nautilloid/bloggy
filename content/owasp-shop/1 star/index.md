@@ -1,6 +1,6 @@
 ---
 title: "OWASP Juice-shop 1 star challenges"
-date: 2025-01-09T16:06:04+01:00
+date: 2025-09-01T16:06:04+01:00
 draft: false
 tags: ["owasp", "caido", "inspect", "Web", "hacking", "juice-shop"]
 categories: ["Tool Setup"]
