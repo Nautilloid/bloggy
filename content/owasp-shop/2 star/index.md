@@ -7,14 +7,20 @@ categories: ["Tool Setup"]
 description: "The second in a series of guides showing web application hacking the OWASP Juice-shop. This is beginner/intermediate level and shows basic nagivation of sites, files, looking into source code and an introduction to Caido"
 ---
 
+
 **Reflected XSS**
 
-`<iframe src="javascript:alert(`xss`)">`
+	Access the administration section of the store.
 
 Go through the whole order process. Add to cart, add credit card and address. Then we can track our order.
 
 
+
+
 ![](Screenshot%202025-09-02%20at%2016.47.42.png)
+
+`<iframe src="javascript:alert("xss")">`
+
 
 Replace the id string with the javascript. 
 
@@ -98,6 +104,7 @@ Add a placeholder and select the list you'd like to use.
  You don't need to use the rockyou.txt list. 
  ![](Screenshot%202025-09-04%20at%2010.06.37.png)
 
+![](Screenshot%202025-09-04%20at%2017.04.29.png)
 ----------
 
 
@@ -174,3 +181,113 @@ So I put in a couple of spaces....
 Not sure really what I did. Thought it had failed. 
 
 ![](Screenshot%202025-09-04%20at%2015.24.11.png)
+
+-----------
+
+Five-Star Feedback
+
+	Get rid of all 5-star customer feedback.
+
+Sign into:
+admin@juice-sh.op
+
+add: administration to the url:
+http://192.168.10.132:3000/#/administration
+
+Delete the top 5 star feedback comment. 
+
+![](Screenshot%202025-09-04%20at%2017.01.38.png)
+
+----------------
+
+**Login MC SafeSearch**
+
+	Log in with MC SafeSearch's original user credentials without applying SQL Injection or any other bypass.
+
+mc.safesearch@juice-sh.op
+
+Search google for: mc safesearch
+
+https://www.youtube.com/watch?v=v59CX2DiX0Y
+Find a video about protecting passwords. There are a couple he used in the video
+
+PROTECT YA' PASSWORDZ
+mr noodles
+N3wpassword
+
+I tried versions of all three. 
+
+![](Screenshot%202025-09-05%20at%2008.08.44.png)
+
+------------
+
+**Meta Geo Stalking**
+
+Determine the answer to John's security question by looking at an upload of him to the Photo Wall and use it to reset his password via the Forgot Password mechanism.
+
+Well, I couldn't get this one. I found the coordinates but missed the place. This guy have the right idea.
+
+https://curiositykillscolby.com/2020/11/11/pwning-owasps-juice-shop-pt-15-meta-geo-stalking-weird-crypto/
+
+--------
+
+**NFT Takeover**
+
+Take over the wallet containing our official Soul Bound Token (NFT).
+
+After a bit of poking around I found this: 
+
+![](Screenshot%202025-09-05%20at%2012.14.47%20(2).png)
+
+This phrase needs to be converted to a Ethereum nmemonic code
+
+https://iancoleman.io/bip39/
+Using this site enter the phrase into the BIP39 Mnemonic input section and select ETH under "Coin". Leave the other options. 
+
+
+![](Screenshot%202025-09-05%20at%2012.37.16.png)
+
+![](Screenshot%202025-09-05%20at%2012.35.02.png)
+
+----------
+
+**Security Policy**
+
+This 
+
+![](Screenshot%202025-09-08%20at%2020.46.00.png)
+
+
+----------
+
+**Visual Geo Stalking**
+
+Determine the answer to Emma's security question by looking at an upload of her to the Photo Wall and use it to reset her password via the Forgot Password mechanism.
+
+Head the the photowall and download the e=ma photo.
+
+![](Screenshot%202025-09-09%20at%2007.34.27.png)
+
+Zoom into the window on the left and you'll find a company logo.
+
+
+![](Screenshot%202025-09-09%20at%2007.35.08.png)
+
+Using the replay tool in Caido, input the password.
+
+![](Screenshot%202025-09-09%20at%2007.36.05.png)
+
+----------
+
+**Weird Crypto**
+
+Inform the shop about an algorithm or library it should definitely not use the way it does.
+
+![](Screenshot%202025-09-09%20at%2013.20.42.png)
+
+When someone changes a password it will give out a hash. 
+	This is a md5 hash and is obsolete.
+	
+![](Screenshot%202025-09-09%20at%2014.58.45.png)
+
+`hashcat -m 0 -a 0 md5.txt /usr/share/wordlists/rockyou.txt`
