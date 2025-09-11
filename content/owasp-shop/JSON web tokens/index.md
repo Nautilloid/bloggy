@@ -1,6 +1,6 @@
 ---
 title: "Decoding JSON Web Tokens"
-date: 2025-09-11T06:06:04+01:00
+date: 2025-09-10T06:06:04+01:00
 draft: false
 tags: ["Caido", "JSON", "JWT", "Plugin"]
 categories: ["Tools"]
