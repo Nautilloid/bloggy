@@ -8,7 +8,7 @@ description: "A handy community plugin to assist hacking API's by easily decodin
 ---
 
 
-Using a [Caido] community plugin, we are able to have an api request token and decode valuable information from it.
+Using a [Caido] community plugin, we are able to decode valuable information from the api's JWT.
 
 Find the 'Plugins' tab in the left menu and search for: `JWT Analyzer`
 
