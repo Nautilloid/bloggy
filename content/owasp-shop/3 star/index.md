@@ -1,5 +1,5 @@
 ---
-title: "OWASP Juice-shop 3 star challenges"
+title: "OWASP Juice-shop  3star challenges"
 date: 2025-09-18T12:00:04+01:00
 draft: false
 tags: ["owasp", "caido", "sqlmap", "Web", "hacking", "juice-shop", "sqlite", "api"]
