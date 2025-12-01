@@ -1,6 +1,6 @@
 ---
 title: "OWASP Juice-shop  3star challenges continued"
-date: 2025-12-1T00:01:04+01:00
+date: 2025-11-18T12:00:04+01:00
 draft: false
 tags: ["owasp", "caido", "sqlmap", "Web", "hacking", "juice-shop", "sqlite", "api"]
 categories: ["Pentesting"]
