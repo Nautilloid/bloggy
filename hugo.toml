@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Rich told me to blog'
 theme = 'not-much'
 copyright = "take what you need © {year}"
-
+followSymlinks = true
 
 # Navigation
 [menu]
@@ -14,19 +14,38 @@ copyright = "take what you need © {year}"
     url = "/"
     weight = 1
   
-  [[menu.main]]
+[[menu.main]]
     identifier = "lab"
     name = "lab"
     title = "lab"
     url = "/lab"
     weight = 2
-  
+
+[[menu.main]]
+    identifier = "offsec"
+    name = "offsec"
+    title = "offsec"
+    url = "/offsec"
+    weight = 3
+
+  [[menu.main]]
+    name = "windows"
+    parent = "offsec"
+    url = "/offsec/windows"
+    weight = 1
+
+  [[menu.main]]
+    name = "linux"
+    parent = "offsec"
+    url = "/offsec/linux"
+    weight = 2
+
 [[menu.main]]
     identifier = "dvwa"
     name = "dvwa"
     title = "dvwa"
     url = "/dvwa"
-    weight = 3
+    weight = 6
 
 [[menu.main]]
     identifier = "owasp-shop"
@@ -47,14 +66,14 @@ copyright = "take what you need © {year}"
     name = "about"
     title = "About"
     url = "/about"
-    weight = 6
+    weight = 7
   
-  [[menu.main]]
+[[menu.main]]
     identifier = "github"
     name = "github"
     title = "GitHub"
     url = "https://github.com/Nautilloid"
-    weight = 7
+    weight = 8
 
 
 
@@ -71,6 +90,7 @@ theme = "dark"
 palette = "catpuccin"
 showThemeNotice = true
 showPostsSummary = true
+summaryLength = 30
 
 [taxonomies]
   category = "categories"
