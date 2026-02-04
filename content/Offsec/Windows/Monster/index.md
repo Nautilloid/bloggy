@@ -24,9 +24,9 @@ smbmap -H 192.168.197.180
 
 ![](Screenshot%202026-01-08%20at%2013.46.56.png)
 
-Nothing
------- 
-HTTP
+nada
+ 
+HTTP:
 
 ![](Screenshot%202026-01-08%20at%2013.47.52.png)
 

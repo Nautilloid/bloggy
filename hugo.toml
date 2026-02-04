@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'htps://driverevive.com.au'
 languageCode = 'en-us'
 title = 'Rich told me to blog'
 theme = 'not-much'
@@ -75,7 +75,7 @@ followSymlinks = true
     url = "https://github.com/Nautilloid"
     weight = 8
 
-
+paginate = 50
 
 [markup]
   [markup.highlight]
@@ -90,7 +90,8 @@ theme = "dark"
 palette = "catpuccin"
 showThemeNotice = true
 showPostsSummary = true
-summaryLength = 30
+summaryLength = 150
+
 
 [taxonomies]
   category = "categories"
@@ -98,3 +99,4 @@ summaryLength = 30
 
 [sections]
   posts = "lab"
+

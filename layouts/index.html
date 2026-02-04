@@ -1,20 +1,41 @@
 {{ define "main" }}
-{{ $title := print .Site.Title " | " .Title}}
-{{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 <div class="container pt-5">
     <div class="row mt-5 pt-5">
-        <div class="col-md-8">
-            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-            <h1 class="display-3 text-uppercase lh-sm">{{ $title }}</h1>
-            {{ if isset .Params "lead" }}
-            <p class="lead pb-2">
-                <span class="underline">{{ .Params.lead }}</span>
-            </p>
-            {{ end }}
-            <p class="lh-lg">
-                {{ .Content }}
-            </p>
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+
+    <div class="row mb-5">
+        <div class="col">
+            {{ .Content }}
         </div>
     </div>
+
+    {{ $paginator := .Paginate (where site.RegularPages "Section" "!=" "") 50 }}
+    
+    {{ range $paginator.Pages }}
+    <div class="row mb-3">
+        <time class="small">{{ .Date.Format "January 2, 2006" }}</time>
+        <h2 class="h5"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        
+        {{ if .Site.Params.showPostsSummary }}
+        <p class="small opacity-75 post-summary">
+            {{ .Summary | plainify | truncate 200 }}
+        </p>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            {{ if $paginator.HasPrev }}
+            <li class="breadcrumb-item"><a href="{{ $paginator.Prev.URL }}">← back</a></li>
+            {{ end }}
+            {{ if $paginator.HasNext }}
+            <li class="breadcrumb-item"><a href="{{ $paginator.Next.URL }}">next →</a></li>
+            {{ end }}
+        </ol>
+    </nav>
+    {{ end }}
 </div>
 {{ end }}

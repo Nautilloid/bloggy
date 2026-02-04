@@ -5,7 +5,7 @@
       {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
     </div>
     {{ .Content }}
-    {{ $paginator := .Paginate .Pages }}
+    {{ $paginator := .Paginate .Data.Pages 50 }}
     {{ range $paginator.Pages }}
     <div class="row mb-3">
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
@@ -14,12 +14,11 @@
       <h2 class="h5"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ if .Site.Params.showPostsSummary }}
       <p class="small opacity-75 post-summary">
-        {{ .Summary }}
+        {{ .Summary | plainify | truncate 200 }}
       </p>
       {{ end }}
     </div>
     {{ end }}
-    {{ $paginator := .Paginator }}
     {{ if gt $paginator.TotalPages 1 }}
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">

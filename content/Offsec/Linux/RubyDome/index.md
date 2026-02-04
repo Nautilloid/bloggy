@@ -35,6 +35,6 @@ sudo -l
 
 So whats happening here?
 
-- ruby is executing /bin/bash from inside the file that has root privileges 
+ruby is executing /bin/bash from inside the file that has root privileges 
 
 ![](Screenshot%202025-12-12%20at%2014.56.47.png)
