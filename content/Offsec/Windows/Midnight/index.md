@@ -57,7 +57,7 @@ Some great results with: `enum4linux-ng -A $vic`
 binwalk - file - exiftool
 
 ![](Screenshot%202026-01-05%20at%2008.35.59.png)
-So a standard ports scan wont pick up port 1337. 
+
 
  ![](Screenshot%202026-01-04%20at%2011.39.33.png)
 
