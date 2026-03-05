@@ -1,5 +1,5 @@
 ---
-title: Sam
+title: Sams
 date: 2026-02-22T12:00:04+01:00
 draft: false
 tags:
