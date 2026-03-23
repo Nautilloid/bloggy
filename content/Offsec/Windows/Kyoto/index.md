@@ -10,6 +10,7 @@ tags:
   - ftp
   - SharpGPOAbuse
   - GPO
+  - active directory
 categories:
   - Pentesting
   - Offsec
