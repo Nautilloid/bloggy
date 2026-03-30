@@ -22,7 +22,8 @@ description: "This guide provides readers with the solution to the Proving Groun
 smbclient \\\\192.168.184.152\\Users$
 
 ![](Screenshot%202025-12-16%20at%2010.34.27.png)
-looks like scripting might be the username
+
+Looks like scripting might be the username
 
 ![](Screenshot%202025-12-16%20at%2010.36.12.png)
 
@@ -55,9 +56,11 @@ Trying to find a way to decode this:
 ![](Screenshot%202025-12-16%20at%2014.40.32.png)
 
 Linux:
-	find / -iname local*
+
+`find / -iname local*`
 
 Pwershell:
-	Get-ChildItem -Path C:\ -Recurse -Filter "local*" -ErrorAction SilentlyContinue
+
+`Get-ChildItem -Path C:\ -Recurse -Filter "local*" -ErrorAction SilentlyContinue`
 
 ![](Screenshot%202025-12-16%20at%2015.28.25.png)

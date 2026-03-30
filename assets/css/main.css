@@ -325,3 +325,9 @@ hr {
     currentColor 75%);
   background-size: 4px 4px;
 }
+
+.search-wrapper input[type="text"]:focus {
+    outline: none;
+    border-color: #ff66b2 !important; /* Matches your pink theme color */
+    box-shadow: 0 0 5px rgba(255, 102, 178, 0.5);
+}
