@@ -17,7 +17,9 @@ categories:
   - Windows
 description: "This guide provides readers with the solution to the Proving Grounds Lab: Craft"
 ---
-! 
+
+"For what level of mediocrity will you settle?"  
+--Brandon Lee
 
 ![](Screenshot%202026-01-16%20at%2013.55.41.png)
 
