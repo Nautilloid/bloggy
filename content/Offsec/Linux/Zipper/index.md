@@ -1,3 +1,26 @@
+---
+title: Zipper
+date: 2026-04-04T12:00:04+01:00
+draft: false
+tags:
+  - offsec
+  - nmap
+  - proving-grounds
+  - RDP
+  - 7z
+  - zip
+  - revshells
+  - php
+  - file-upload
+  - cron
+  - base64
+categories:
+  - Pentesting
+  - Offsec
+  - Windows
+description: "This guide provides readers with the solution to the Proving Grounds Lab: Zipper"
+---
+
 “The soul becomes dyed with the colour of its thoughts.”  
 ― Marcus Aurelius
 
@@ -36,7 +59,7 @@ I used Caido to and Foxy Proxy to grab the file and folder name.
 ![](Screenshot%202026-04-10%20at%2009.46.39.png)
 
 
-`zip://uploads/upload_1775622633.zip%23payload`
+zip://uploads/upload_1775622633.zip%23payload
 
 - zip://: PHP realises this is a compressed stream and triggers a 'ZipStream handler'
 - uploads/upload_1775622633.zip: It locates the archive on the hard drive.
