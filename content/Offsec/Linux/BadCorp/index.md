@@ -15,7 +15,7 @@ tags:
 categories:
   - Pentesting
   - Offsec
-  - Windows
+  - Linux
 description: "This guide provides readers with the solution to the Proving Grounds Lab: BadCorp"
 ---
 
