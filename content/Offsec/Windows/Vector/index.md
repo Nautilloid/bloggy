@@ -19,7 +19,7 @@ categories:
   - Windows
 description: "This guide provides readers with the solution to the Proving Grounds Lab: Vector"
 ---
-“Would it save you a lot of time if I just gave up and went mad now?”  
+“Would it save you a lot of time if I just gave up and went mad now?”   
 ― Douglas Adams
 
 This lab forced me back to the start, learning something I'd never heard of and it took a good few hours to understand what is happening with this type of attack. 
