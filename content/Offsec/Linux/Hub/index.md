@@ -1,4 +1,18 @@
-
+---
+title: Hub
+date: 2026-06-30T12:00:04+01:00
+draft: false
+tags:
+  - offsec
+  - nmap
+  - proving-grounds
+  - python
+categories:
+  - Pentesting
+  - Offsec
+  - Linux
+description: "This guide provides readers with the solution to the Proving Grounds Lab: Hub"
+---
 
 ![](Screenshot%202026-06-30%20at%2015.29.19.png)
 

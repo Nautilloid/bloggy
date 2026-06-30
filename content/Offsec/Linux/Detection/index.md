@@ -1,3 +1,19 @@
+---
+title: Detection
+date: 2026-06-30T12:00:04+01:00
+draft: false
+tags:
+  - offsec
+  - nmap
+  - proving-grounds
+  - python
+categories:
+  - Pentesting
+  - Offsec
+  - Linux
+description: "This guide provides readers with the solution to the Proving Grounds Lab: Detection"
+---
+
 ![](Screenshot%202026-06-30%20at%2014.34.57.png)
 
 ![](Screenshot%202026-06-30%20at%2014.35.09.png)
