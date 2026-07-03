@@ -42,17 +42,17 @@ Start caido or burp:
 
 This references xml so we'll attempt an xxe(xml external  entity attack)
 
-Navigate to: `http://192.168.203.226/record_xml.php'
+Navigate to: `http://192.168.203.226/record_xml.php`
 
-Better yet: fill out the for on the demo page, then find the POST request in Caido.
+Better yet: fill out the form on the demo page, then find the POST request in Caido.
 
 Send the request to replay:
 
 ![](Screenshot%202026-04-28%20at%2009.08.50.png)
 
-Add the following just like its is pictured below:
+Add the following, as pictured below:
 
-`<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]> 
+`<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>`
 
 `&xxe;`
 
@@ -66,7 +66,7 @@ Decode the base64 and view the source code:
 
 Copy into a file called index.txt.
 
- base64 -d index.txt > dindex.txt`
+`base64 -d index.txt > dindex.txt`
 
 ![](Screenshot%202026-04-29%20at%2010.20.28.png)
 

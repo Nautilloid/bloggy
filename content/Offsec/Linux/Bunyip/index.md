@@ -307,4 +307,3 @@ chmod +x PwnKit.sh
 ./Pwnkit.sh
 ```
 
-I tried this before I did any enumeration was gifted root... 

