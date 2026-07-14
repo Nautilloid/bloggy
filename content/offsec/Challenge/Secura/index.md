@@ -1,6 +1,6 @@
 ---
 title: Secura
-date: 2026-06-13T12:00:04+01:00
+date: 2026-07-13T12:00:04+01:00
 draft: false
 tags:
   - offsec
@@ -75,10 +75,10 @@ Within that dump, just at the start you'll find a 'creds' table.
 
 ![](Screenshot%202026-07-14%20at%2016.35.01.png)
 
-administrator
+administrator  
 Almost4There8.?
 
-charlotte
+charlotte  
 Game2On4.!
 
 ![](Screenshot%202026-07-14%20at%2016.41.42.png)
