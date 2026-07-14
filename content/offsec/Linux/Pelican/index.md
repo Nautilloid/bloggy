@@ -1,6 +1,6 @@
 ---
 title: Pelican
-date: 2026-06-08T12:00:04+01:00
+date: 2026-07-08T12:00:04+01:00
 draft: false
 tags:
   - offsec

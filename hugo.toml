@@ -41,6 +41,12 @@ followSymlinks = true
     weight = 2
 
 [[menu.main]]
+    name = "challenge"
+    parent = "offsec"
+    url = "/offsec/challenge"
+    weight = 3
+
+[[menu.main]]
     identifier = "dvwa"
     name = "dvwa"
     title = "dvwa"
