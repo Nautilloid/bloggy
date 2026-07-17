@@ -14,7 +14,7 @@ categories:
   - Pentesting
   - Offsec
   - Windows
-description: "This guide provides readers with the solution to the Proving Grounds Lab: Pelican"
+description: "This guide provides readers with the solution to the Proving Grounds Lab: Secura"
 ---
 
 ## X.X.X.95
